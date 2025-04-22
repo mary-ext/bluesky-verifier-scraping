@@ -3,7 +3,7 @@ import { simpleFetchHandler } from '@atcute/client';
 import { At } from '@atcute/client/lexicons';
 
 import { Client } from '../src/client.ts';
-import { APPVIEW_URL } from '../src/constants.ts';
+import { APPVIEW_URL, DEFAULT_HEADERS } from '../src/constants.ts';
 import { DidInfo, SerializedState, serializedState } from '../src/state.ts';
 
 const client = new Client({ handler: simpleFetchHandler({ service: APPVIEW_URL }) });
@@ -36,6 +36,7 @@ const dids = new Map<string, DidInfo>(state ? Object.entries(state.dids) : []);
 for (const [did, info] of dids) {
 	while (true) {
 		const response = await client.get('app.bsky.actor.getProfile', {
+			headers: DEFAULT_HEADERS,
 			params: {
 				actor: did as At.Did,
 			},
