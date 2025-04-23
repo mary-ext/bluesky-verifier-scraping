@@ -1,6 +1,6 @@
 {
 	"jetstream": {
-		"cursor": 1745289436464677
+		"cursor": 1745369158148074
 	},
 	"dids": {
 		"did:plc:z72i7hdynmk6r22z27h6tvur": {
@@ -24,6 +24,22 @@
 			"profile": {
 				"name": "WIRED ",
 				"handle": "wired.com"
+			},
+			"valid": true
+		},
+		"did:plc:b2kutgxqlltwc6lhs724cfwr": {
+			"at": 1745295752283,
+			"profile": {
+				"name": "The Athletic",
+				"handle": "theathletic.bsky.social"
+			},
+			"valid": true
+		},
+		"did:plc:5h5jdov3ptqbfx2gu2ikheog": {
+			"at": 1745366066121,
+			"profile": {
+				"name": "Test Verifier",
+				"handle": "vert-verifier.bsky.social"
 			},
 			"valid": true
 		}
