@@ -1,6 +1,6 @@
 {
 	"jetstream": {
-		"cursor": 1747961196820327
+		"cursor": 1748047498128634
 	},
 	"dids": {
 		"did:plc:z72i7hdynmk6r22z27h6tvur": {
@@ -64,6 +64,14 @@
 			"profile": {
 				"name": "CNN",
 				"handle": "cnn.com"
+			},
+			"valid": true
+		},
+		"did:plc:5u54z2qgkq43dh2nzwzdbbhb": {
+			"at": 1748012626791,
+			"profile": {
+				"name": "Financial Times",
+				"handle": "financialtimes.com"
 			},
 			"valid": true
 		}
