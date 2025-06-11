@@ -1,6 +1,6 @@
 {
 	"jetstream": {
-		"cursor": 1749516518293625
+		"cursor": 1749602893212115
 	},
 	"dids": {
 		"did:plc:z72i7hdynmk6r22z27h6tvur": {
@@ -96,6 +96,14 @@
 			"profile": {
 				"name": "The Globe and Mail",
 				"handle": "theglobeandmail.com"
+			},
+			"valid": true
+		},
+		"did:plc:xwqgusybtrpm67tcwqdfmzvy": {
+			"at": 1749582606032,
+			"profile": {
+				"name": "IGN",
+				"handle": "ign.com"
 			},
 			"valid": true
 		}
