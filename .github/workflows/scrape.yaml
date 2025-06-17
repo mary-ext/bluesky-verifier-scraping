@@ -29,6 +29,9 @@ jobs:
       - name: Run verify-authenticity script
         run: deno run -A ./scripts/verify-authenticity.ts
 
+      - name: Run generate-markdown script
+        run: deno run -A ./scripts/generate-markdown.ts
+
       - name: Push to repository
         run: |
           git config user.name github-actions[bot]
