@@ -1,6 +1,6 @@
 # Bluesky verified accounts
 
-Last updated: 2025-07-09T00:48:02.088Z[^1]
+Last updated: 2025-07-16T00:47:58.171Z[^1]
 
 <!-- table-start -->
 | Account |
@@ -13,7 +13,7 @@ Last updated: 2025-07-09T00:48:02.088Z[^1]
 | ✅ <a href="https://bsky.app/profile/did:plc:fivojrvylkim4nuo3pfqcf3k"><b>Microsoft</b> (@microsoft.com)</a> |
 | ✅ <a href="https://bsky.app/profile/did:plc:wmho6q2uiyktkam3jsvrms3s"><b>NBC News</b> (@nbcnews.com)</a> |
 | ✅ <a href="https://bsky.app/profile/did:plc:5h5jdov3ptqbfx2gu2ikheog"><b>Test Verifier</b> (@vert-verifier.bsky.social)</a> |
-| ✅ <a href="https://bsky.app/profile/did:plc:b2kutgxqlltwc6lhs724cfwr"><b>The Athletic</b> (@theathletic.bsky.social)</a> |
+| ✅ <a href="https://bsky.app/profile/did:plc:b2kutgxqlltwc6lhs724cfwr"><b>The Athletic</b> (@theathletic.com)</a> |
 | ✅ <a href="https://bsky.app/profile/did:plc:y3xrmnwvkvsq4tqcsgwch4na"><b>The Globe and Mail</b> (@theglobeandmail.com)</a> |
 | ✅ <a href="https://bsky.app/profile/did:plc:eclio37ymobqex2ncko63h4r"><b>The New York Times</b> (@nytimes.com)</a> |
 | ✅ <a href="https://bsky.app/profile/did:plc:k5nskatzhyxersjilvtnz4lh"><b>The Washington Post</b> (@washingtonpost.com)</a> |
