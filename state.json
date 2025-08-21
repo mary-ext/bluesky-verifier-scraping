@@ -1,6 +1,6 @@
 {
 	"jetstream": {
-		"cursor": 1755650668430174
+		"cursor": 1755737037339974
 	},
 	"dids": {
 		"did:plc:z72i7hdynmk6r22z27h6tvur": {
@@ -120,6 +120,14 @@
 			"profile": {
 				"name": "MSNBC",
 				"handle": "msnbc.com"
+			},
+			"valid": true
+		},
+		"did:plc:i3fhjvvkbmirhyu4aeihhrnv": {
+			"at": 1755723278048,
+			"profile": {
+				"name": "The Wall Street Journal",
+				"handle": "wsj.com"
 			},
 			"valid": true
 		}

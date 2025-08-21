@@ -1,6 +1,6 @@
 # Bluesky verified accounts
 
-Last updated: 2025-07-23T00:49:02.301Z[^1]
+Last updated: 2025-08-21T00:44:01.819Z[^1]
 
 <!-- table-start -->
 | Account |
@@ -17,6 +17,7 @@ Last updated: 2025-07-23T00:49:02.301Z[^1]
 | ✅ <a href="https://bsky.app/profile/did:plc:b2kutgxqlltwc6lhs724cfwr"><b>The Athletic</b> (@theathletic.com)</a> |
 | ✅ <a href="https://bsky.app/profile/did:plc:y3xrmnwvkvsq4tqcsgwch4na"><b>The Globe and Mail</b> (@theglobeandmail.com)</a> |
 | ✅ <a href="https://bsky.app/profile/did:plc:eclio37ymobqex2ncko63h4r"><b>The New York Times</b> (@nytimes.com)</a> |
+| ✅ <a href="https://bsky.app/profile/did:plc:i3fhjvvkbmirhyu4aeihhrnv"><b>The Wall Street Journal</b> (@wsj.com)</a> |
 | ✅ <a href="https://bsky.app/profile/did:plc:k5nskatzhyxersjilvtnz4lh"><b>The Washington Post</b> (@washingtonpost.com)</a> |
 | ✅ <a href="https://bsky.app/profile/did:plc:inz4fkbbp7ms3ixufw6xuvdi"><b>WIRED</b> (@wired.com)</a> |
 | ✅ <a href="https://bsky.app/profile/did:plc:sqbswn3lalcc2dlh2k7zdpuw"><b>Yahoo Finance</b> (@yahoofinance.com)</a> |
