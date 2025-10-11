@@ -1,16 +1,17 @@
 # Bluesky verified accounts
 
-Last updated: 2025-08-21T00:44:01.819Z[^1]
+Last updated: 2025-10-11T00:41:28.729Z[^1]
 
 <!-- table-start -->
 | Account |
 | ------- |
 | ✅ <a href="https://bsky.app/profile/did:plc:z72i7hdynmk6r22z27h6tvur"><b>Bluesky</b> (@bsky.app)</a> |
 | ✅ <a href="https://bsky.app/profile/did:plc:dzezcmpb3fhcpns4n4xm4ur5"><b>CNN</b> (@cnn.com)</a> |
+| ✅ <a href="https://bsky.app/profile/did:plc:oxo226vi7t2btjokm2buusoy"><b>European Commission</b> (@ec.europa.eu)</a> |
 | ✅ <a href="https://bsky.app/profile/did:plc:5u54z2qgkq43dh2nzwzdbbhb"><b>Financial Times</b> (@financialtimes.com)</a> |
 | ✅ <a href="https://bsky.app/profile/did:plc:xwqgusybtrpm67tcwqdfmzvy"><b>IGN</b> (@ign.com)</a> |
 | ✅ <a href="https://bsky.app/profile/did:plc:d2jith367s6ybc3ldsusgdae"><b>Los Angeles Times</b> (@latimes.com)</a> |
-| ✅ <a href="https://bsky.app/profile/did:plc:fivojrvylkim4nuo3pfqcf3k"><b>Microsoft</b> (@microsoft.com)</a> |
+| ✅ <a href="https://bsky.app/profile/did:plc:fivojrvylkim4nuo3pfqcf3k"><b>Microsoft</b> (@handle.invalid)</a> |
 | ✅ <a href="https://bsky.app/profile/did:plc:ofbkqcjzvm6gtwuufsubnkaf"><b>MSNBC</b> (@msnbc.com)</a> |
 | ✅ <a href="https://bsky.app/profile/did:plc:wmho6q2uiyktkam3jsvrms3s"><b>NBC News</b> (@nbcnews.com)</a> |
 | ✅ <a href="https://bsky.app/profile/did:plc:5h5jdov3ptqbfx2gu2ikheog"><b>Test Verifier</b> (@vert-verifier.bsky.social)</a> |

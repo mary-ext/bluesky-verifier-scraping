@@ -1,6 +1,6 @@
 {
 	"jetstream": {
-		"cursor": 1760056986444771
+		"cursor": 1760143283231790
 	},
 	"dids": {
 		"did:plc:z72i7hdynmk6r22z27h6tvur": {
@@ -111,7 +111,7 @@
 			"at": 1751999904903,
 			"profile": {
 				"name": "Microsoft",
-				"handle": "microsoft.com"
+				"handle": "handle.invalid"
 			},
 			"valid": true
 		},
@@ -128,6 +128,14 @@
 			"profile": {
 				"name": "The Wall Street Journal",
 				"handle": "wsj.com"
+			},
+			"valid": true
+		},
+		"did:plc:oxo226vi7t2btjokm2buusoy": {
+			"at": 1760094346132,
+			"profile": {
+				"name": "European Commission",
+				"handle": "ec.europa.eu"
 			},
 			"valid": true
 		}
