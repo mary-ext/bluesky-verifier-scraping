@@ -1,6 +1,6 @@
 {
 	"jetstream": {
-		"cursor": 1760661827602401
+		"cursor": 1760748084414029
 	},
 	"dids": {
 		"did:plc:z72i7hdynmk6r22z27h6tvur": {
@@ -136,6 +136,14 @@
 			"profile": {
 				"name": "European Commission",
 				"handle": "ec.europa.eu"
+			},
+			"valid": true
+		},
+		"did:plc:r4ve5hjtfjubdwrvlxcad62e": {
+			"at": 1760692587298,
+			"profile": {
+				"name": "AFP News Agency",
+				"handle": "en.afp.com"
 			},
 			"valid": true
 		}
