@@ -1,6 +1,6 @@
 {
 	"jetstream": {
-		"cursor": 1760748084414029
+		"cursor": 1760834994026350
 	},
 	"dids": {
 		"did:plc:z72i7hdynmk6r22z27h6tvur": {
@@ -111,7 +111,7 @@
 			"at": 1751999904903,
 			"profile": {
 				"name": "Microsoft",
-				"handle": "microsoft.com"
+				"handle": "handle.invalid"
 			},
 			"valid": true
 		},
