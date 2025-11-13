@@ -1,6 +1,6 @@
 {
 	"jetstream": {
-		"cursor": 1762908352834823
+		"cursor": 1762994754553078
 	},
 	"dids": {
 		"did:plc:z72i7hdynmk6r22z27h6tvur": {
@@ -144,6 +144,14 @@
 			"profile": {
 				"name": "AFP News Agency",
 				"handle": "en.afp.com"
+			},
+			"valid": true
+		},
+		"did:plc:j4eroku3volozvv6ljsnnfec": {
+			"at": 1762965688015,
+			"profile": {
+				"name": "HuffPost",
+				"handle": "huffpost.com"
 			},
 			"valid": true
 		}

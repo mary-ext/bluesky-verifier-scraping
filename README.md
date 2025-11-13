@@ -1,6 +1,6 @@
 # Bluesky verified accounts
 
-Last updated: 2025-10-20T00:48:12.431Z[^1]
+Last updated: 2025-11-13T00:45:59.255Z[^1]
 
 <!-- table-start -->
 | Account |
@@ -10,6 +10,7 @@ Last updated: 2025-10-20T00:48:12.431Z[^1]
 | ✅ <a href="https://bsky.app/profile/did:plc:dzezcmpb3fhcpns4n4xm4ur5"><b>CNN</b> (@cnn.com)</a> |
 | ✅ <a href="https://bsky.app/profile/did:plc:oxo226vi7t2btjokm2buusoy"><b>European Commission</b> (@ec.europa.eu)</a> |
 | ✅ <a href="https://bsky.app/profile/did:plc:5u54z2qgkq43dh2nzwzdbbhb"><b>Financial Times</b> (@financialtimes.com)</a> |
+| ✅ <a href="https://bsky.app/profile/did:plc:j4eroku3volozvv6ljsnnfec"><b>HuffPost</b> (@huffpost.com)</a> |
 | ✅ <a href="https://bsky.app/profile/did:plc:xwqgusybtrpm67tcwqdfmzvy"><b>IGN</b> (@ign.com)</a> |
 | ✅ <a href="https://bsky.app/profile/did:plc:d2jith367s6ybc3ldsusgdae"><b>Los Angeles Times</b> (@latimes.com)</a> |
 | ✅ <a href="https://bsky.app/profile/did:plc:fivojrvylkim4nuo3pfqcf3k"><b>Microsoft</b> (@microsoft.com)</a> |
