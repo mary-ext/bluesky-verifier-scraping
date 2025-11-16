@@ -1,6 +1,6 @@
 {
 	"jetstream": {
-		"cursor": 1763167477719492
+		"cursor": 1763254080829788
 	},
 	"dids": {
 		"did:plc:z72i7hdynmk6r22z27h6tvur": {
@@ -111,15 +111,15 @@
 			"at": 1751999904903,
 			"profile": {
 				"name": "Microsoft",
-				"handle": "microsoft.com"
+				"handle": "handle.invalid"
 			},
 			"valid": true
 		},
 		"did:plc:ofbkqcjzvm6gtwuufsubnkaf": {
 			"at": 1753202006385,
 			"profile": {
-				"name": "MSNBC",
-				"handle": "msnbc.com"
+				"name": "MS NOW",
+				"handle": "ms.now"
 			},
 			"valid": true
 		},

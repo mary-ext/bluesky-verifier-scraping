@@ -1,6 +1,6 @@
 # Bluesky verified accounts
 
-Last updated: 2025-11-13T00:45:59.255Z[^1]
+Last updated: 2025-11-16T00:48:05.036Z[^1]
 
 <!-- table-start -->
 | Account |
@@ -13,8 +13,8 @@ Last updated: 2025-11-13T00:45:59.255Z[^1]
 | ✅ <a href="https://bsky.app/profile/did:plc:j4eroku3volozvv6ljsnnfec"><b>HuffPost</b> (@huffpost.com)</a> |
 | ✅ <a href="https://bsky.app/profile/did:plc:xwqgusybtrpm67tcwqdfmzvy"><b>IGN</b> (@ign.com)</a> |
 | ✅ <a href="https://bsky.app/profile/did:plc:d2jith367s6ybc3ldsusgdae"><b>Los Angeles Times</b> (@latimes.com)</a> |
-| ✅ <a href="https://bsky.app/profile/did:plc:fivojrvylkim4nuo3pfqcf3k"><b>Microsoft</b> (@microsoft.com)</a> |
-| ✅ <a href="https://bsky.app/profile/did:plc:ofbkqcjzvm6gtwuufsubnkaf"><b>MSNBC</b> (@msnbc.com)</a> |
+| ✅ <a href="https://bsky.app/profile/did:plc:fivojrvylkim4nuo3pfqcf3k"><b>Microsoft</b> (@handle.invalid)</a> |
+| ✅ <a href="https://bsky.app/profile/did:plc:ofbkqcjzvm6gtwuufsubnkaf"><b>MS NOW</b> (@ms.now)</a> |
 | ✅ <a href="https://bsky.app/profile/did:plc:wmho6q2uiyktkam3jsvrms3s"><b>NBC News</b> (@nbcnews.com)</a> |
 | ✅ <a href="https://bsky.app/profile/did:plc:5h5jdov3ptqbfx2gu2ikheog"><b>Test Verifier</b> (@vert-verifier.bsky.social)</a> |
 | ✅ <a href="https://bsky.app/profile/did:plc:b2kutgxqlltwc6lhs724cfwr"><b>The Athletic</b> (@theathletic.com)</a> |
