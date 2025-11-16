@@ -89,11 +89,11 @@ do {
 			const profile = response.data;
 			const trustedVerifier = profile.verification?.trustedVerifierStatus ?? 'none';
 
-			let valid: boolean | undefined;
+			let valid: boolean | null | undefined;
 			switch (trustedVerifier) {
 				case 'none': {
 					console.log(`  gone (not a verifier)`);
-					dids.delete(did);
+					valid = null;
 					break;
 				}
 				case 'invalid': {
@@ -111,6 +111,11 @@ do {
 					valid = undefined;
 					break;
 				}
+			}
+
+			if (valid === null) {
+				dids.delete(did);
+				break;
 			}
 
 			const next: VerificationEntry = {
