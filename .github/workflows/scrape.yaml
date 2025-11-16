@@ -11,9 +11,6 @@ permissions:
 jobs:
   scrape:
     runs-on: ubuntu-latest
-    env:
-      STATE_FILE: state.json
-      RESULT_FILE: README.md
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -23,11 +20,8 @@ jobs:
         with:
           deno-version: v2.x
 
-      - name: Run export-dids script
-        run: deno run -A ./scripts/export-dids.ts
-
-      - name: Run verify-authenticity script
-        run: deno run -A ./scripts/verify-authenticity.ts
+      - name: Run backfill script
+        run: deno run -A ./scripts/backfill.ts
 
       - name: Run generate-markdown script
         run: deno run -A ./scripts/generate-markdown.ts

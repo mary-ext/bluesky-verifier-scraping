@@ -7,9 +7,10 @@
 		"singleQuote": true
 	},
 	"imports": {
-		"@atcute/bluesky": "npm:@atcute/bluesky@^2.0.3",
-		"@atcute/client": "npm:@atcute/client@^3.0.1",
-		"@badrap/valita": "npm:@badrap/valita@^0.4.4",
-		"@zod/mini": "npm:@zod/mini@^4.0.0-beta.20250420T053007"
+		"@atcute/atproto": "npm:@atcute/atproto@^3.1.9",
+		"@atcute/bluesky": "npm:@atcute/bluesky@^3.2.10",
+		"@atcute/client": "npm:@atcute/client@^4.0.5",
+		"@atcute/lexicons": "npm:@atcute/lexicons@^1.2.3",
+		"@badrap/valita": "npm:@badrap/valita@^0.4.6"
 	}
 }

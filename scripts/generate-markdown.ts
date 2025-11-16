@@ -1,17 +1,15 @@
-// deno-lint-ignore-file no-explicit-any
+import { Did } from '@atcute/lexicons';
 
-const STATE_FILE = Deno.env.get('STATE_FILE');
-const RESULT_FILE = Deno.env.get('RESULT_FILE');
+import { type State, stateSchema, type VerificationEntry } from '../types.ts';
 
-if (!STATE_FILE || !RESULT_FILE) {
-	throw new Error('STATE_FILE and RESULT_FILE environment variables are required');
-}
+let state: State;
+try {
+	const raw = await Deno.readTextFile('state.json');
+	const json = JSON.parse(raw);
 
-let json: any;
-
-{
-	const raw = Deno.readTextFileSync(STATE_FILE);
-	json = JSON.parse(raw);
+	state = stateSchema.parse(json, { mode: 'strip' });
+} catch (err) {
+	throw err;
 }
 
 {
@@ -32,8 +30,8 @@ Last updated: {{time}}[^1]
 `;
 
 	const collator = new Intl.Collator('en-US');
-	const accounts = Object.entries(json.dids)
-		.map(([did, acc]: any): Account => ({ ...acc, did }))
+	const accounts = (Object.entries(state.dids) as [did: Did, entry: VerificationEntry][])
+		.map(([did, acc]) => ({ ...acc, did }))
 		.sort((a, b) => collator.compare(a.profile.name || a.profile.handle, b.profile.name || b.profile.handle));
 
 	for (const account of accounts) {
@@ -53,7 +51,7 @@ Last updated: {{time}}[^1]
 	let shouldWrite = true;
 
 	try {
-		const source = Deno.readTextFileSync(RESULT_FILE);
+		const source = await Deno.readTextFile('README.md');
 
 		if (TABLE_RE.exec(source)?.[0] === table) {
 			shouldWrite = false;
@@ -65,21 +63,11 @@ Last updated: {{time}}[^1]
 	if (shouldWrite) {
 		const final = template.replace('{{time}}', new Date().toISOString()).replace(TABLE_RE, table);
 
-		Deno.writeTextFileSync(RESULT_FILE, final);
+		await Deno.writeTextFile('README.md', final);
 		console.log(`wrote to readme`);
 	} else {
 		console.log(`writing skipped`);
 	}
-}
-
-interface Account {
-	did: string;
-	at: number;
-	profile: {
-		name?: string;
-		handle: string;
-	};
-	valid: boolean;
 }
 
 function escape(str: string) {
