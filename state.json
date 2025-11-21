@@ -112,6 +112,14 @@
 			},
 			"valid": true
 		},
+		"did:plc:rk25gdgk3cnnmtkvlae265nz": {
+			"at": 1763685288140,
+			"profile": {
+				"name": "City of Toronto",
+				"handle": "toronto.ca"
+			},
+			"valid": true
+		},
 		"did:plc:sqbswn3lalcc2dlh2k7zdpuw": {
 			"at": 1747935627753,
 			"profile": {
