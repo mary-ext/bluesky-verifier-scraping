@@ -1,5 +1,13 @@
 {
 	"dids": {
+		"did:plc:2w45zyhuklwihpdc7oj3mi63": {
+			"at": 1767746256529,
+			"profile": {
+				"name": "Forbes",
+				"handle": "forbes.com"
+			},
+			"valid": true
+		},
 		"did:plc:5h5jdov3ptqbfx2gu2ikheog": {
 			"at": 1745366066121,
 			"profile": {
