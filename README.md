@@ -1,6 +1,6 @@
 # Bluesky verified accounts
 
-Last updated: 2026-01-07T00:39:28.088Z[^1]
+Last updated: 2026-01-10T00:39:40.732Z[^1]
 
 <!-- table-start -->
 | Account |
@@ -19,6 +19,7 @@ Last updated: 2026-01-07T00:39:28.088Z[^1]
 | ✅ <a href="https://bsky.app/profile/did:plc:fivojrvylkim4nuo3pfqcf3k"><b>Microsoft</b> (@microsoft.com)</a> |
 | ✅ <a href="https://bsky.app/profile/did:plc:ofbkqcjzvm6gtwuufsubnkaf"><b>MS NOW</b> (@ms.now)</a> |
 | ✅ <a href="https://bsky.app/profile/did:plc:wmho6q2uiyktkam3jsvrms3s"><b>NBC News</b> (@nbcnews.com)</a> |
+| ✅ <a href="https://bsky.app/profile/did:plc:hbdc3q6k5lforao5vyuarvsp"><b>Rest of World</b> (@restofworld.org)</a> |
 | ✅ <a href="https://bsky.app/profile/did:plc:5h5jdov3ptqbfx2gu2ikheog"><b>Test Verifier</b> (@vert-verifier.bsky.social)</a> |
 | ✅ <a href="https://bsky.app/profile/did:plc:b2kutgxqlltwc6lhs724cfwr"><b>The Athletic</b> (@theathletic.com)</a> |
 | ✅ <a href="https://bsky.app/profile/did:plc:y3xrmnwvkvsq4tqcsgwch4na"><b>The Globe and Mail</b> (@theglobeandmail.com)</a> |

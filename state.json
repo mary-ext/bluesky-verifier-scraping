@@ -72,6 +72,14 @@
 			},
 			"valid": true
 		},
+		"did:plc:hbdc3q6k5lforao5vyuarvsp": {
+			"at": 1768005442587,
+			"profile": {
+				"name": "Rest of World",
+				"handle": "restofworld.org"
+			},
+			"valid": true
+		},
 		"did:plc:i3fhjvvkbmirhyu4aeihhrnv": {
 			"at": 1755723278048,
 			"profile": {
