@@ -112,6 +112,14 @@
 			},
 			"valid": true
 		},
+		"did:plc:m7ks2xhfuku7errrtfjux2lg": {
+			"at": 1770684766990,
+			"profile": {
+				"name": "CNBC",
+				"handle": "cnbc.com"
+			},
+			"valid": true
+		},
 		"did:plc:ofbkqcjzvm6gtwuufsubnkaf": {
 			"at": 1753202006385,
 			"profile": {

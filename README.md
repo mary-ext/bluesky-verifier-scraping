@@ -1,6 +1,6 @@
 # Bluesky verified accounts
 
-Last updated: 2026-01-10T00:39:40.732Z[^1]
+Last updated: 2026-02-10T00:55:06.504Z[^1]
 
 <!-- table-start -->
 | Account |
@@ -8,6 +8,7 @@ Last updated: 2026-01-10T00:39:40.732Z[^1]
 | ✅ <a href="https://bsky.app/profile/did:plc:r4ve5hjtfjubdwrvlxcad62e"><b>AFP News Agency</b> (@en.afp.com)</a> |
 | ✅ <a href="https://bsky.app/profile/did:plc:z72i7hdynmk6r22z27h6tvur"><b>Bluesky</b> (@bsky.app)</a> |
 | ✅ <a href="https://bsky.app/profile/did:plc:rk25gdgk3cnnmtkvlae265nz"><b>City of Toronto</b> (@toronto.ca)</a> |
+| ✅ <a href="https://bsky.app/profile/did:plc:m7ks2xhfuku7errrtfjux2lg"><b>CNBC</b> (@cnbc.com)</a> |
 | ✅ <a href="https://bsky.app/profile/did:plc:dzezcmpb3fhcpns4n4xm4ur5"><b>CNN</b> (@cnn.com)</a> |
 | ✅ <a href="https://bsky.app/profile/did:plc:oxo226vi7t2btjokm2buusoy"><b>European Commission</b> (@ec.europa.eu)</a> |
 | ✅ <a href="https://bsky.app/profile/did:plc:5u54z2qgkq43dh2nzwzdbbhb"><b>Financial Times</b> (@financialtimes.com)</a> |
