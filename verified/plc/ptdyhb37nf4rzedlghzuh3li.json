@@ -1,0 +1,11 @@
+{
+	"profile": {
+		"handle": "postopinions.bsky.social",
+		"name": "Washington Post Opinions"
+	},
+	"verifiedBy": {
+		"did:plc:k5nskatzhyxersjilvtnz4lh": {
+			"at": 1749658335268
+		}
+	}
+}

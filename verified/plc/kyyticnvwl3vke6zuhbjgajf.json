@@ -1,0 +1,11 @@
+{
+	"profile": {
+		"handle": "nytimeses.nytimes.com",
+		"name": "The New York Times en Español"
+	},
+	"verifiedBy": {
+		"did:plc:eclio37ymobqex2ncko63h4r": {
+			"at": 1749061344843
+		}
+	}
+}

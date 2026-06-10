@@ -1,0 +1,11 @@
+{
+	"profile": {
+		"handle": "frankfurt.de",
+		"name": "Stadt Frankfurt am Main"
+	},
+	"verifiedBy": {
+		"did:plc:z72i7hdynmk6r22z27h6tvur": {
+			"at": 1758840056870
+		}
+	}
+}

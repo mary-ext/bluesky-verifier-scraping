@@ -1,0 +1,11 @@
+{
+	"profile": {
+		"handle": "molecularfoundry.lbl.gov",
+		"name": "Molecular Foundry"
+	},
+	"verifiedBy": {
+		"did:plc:z72i7hdynmk6r22z27h6tvur": {
+			"at": 1753054517822
+		}
+	}
+}

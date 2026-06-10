@@ -1,0 +1,11 @@
+{
+	"profile": {
+		"handle": "jeffstein.bsky.social",
+		"name": "Jeff Stein"
+	},
+	"verifiedBy": {
+		"did:plc:k5nskatzhyxersjilvtnz4lh": {
+			"at": 1748293328772
+		}
+	}
+}

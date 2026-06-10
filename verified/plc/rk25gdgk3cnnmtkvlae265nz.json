@@ -1,0 +1,11 @@
+{
+	"profile": {
+		"handle": "toronto.ca",
+		"name": "City of Toronto"
+	},
+	"verifiedBy": {
+		"did:plc:z72i7hdynmk6r22z27h6tvur": {
+			"at": 1748103171759
+		}
+	}
+}

@@ -2,9 +2,10 @@ scraper that tracks trusted verifier accounts across atproto AppViews, written i
 
 it queries a relay for repos holding `app.bsky.graph.verification` records, checks each profile's verifier
 status against every configured AppView (Bluesky and Blacksky, see `sources.ts`), and reads each verifier's
-verification records to capture who it verified. it persists everything to `state.json` and renders a Markdown
-table per source into `README.md` (the verified-account lists live in `state.json` only). a GitHub Actions
-cron runs it daily and commits the updated state and README.
+verification records to capture who it verified. it persists verifier metadata to `verifiers.json` and one
+file per verified account under `verified/` (keyed by which verifiers verified it), then renders a Markdown
+table per source into `README.md` (the verified-account data lives under `verified/` only, never in the
+README). a GitHub Actions cron runs it daily and commits the updated data and README.
 
 ## development notes
 
@@ -12,7 +13,7 @@ cron runs it daily and commits the updated state and README.
 
 - the project runs on Deno; CI installs it via `denoland/setup-deno`, there is no local toolchain manifest
 - the daily scrape lives in `.github/workflows/scrape.yaml`, which runs the scripts under `scripts/` and
-  commits `state.json` and `README.md`
+  commits `verifiers.json`, `verified/`, and `README.md`
 - run a script with `deno run -A ./scripts/<name>.ts`
 - format with `deno fmt`
 - lint with `deno lint`

@@ -1,0 +1,11 @@
+{
+	"profile": {
+		"handle": "lagarde.ecb.europa.eu",
+		"name": "Christine Lagarde"
+	},
+	"verifiedBy": {
+		"did:plc:z72i7hdynmk6r22z27h6tvur": {
+			"at": 1753991409893
+		}
+	}
+}

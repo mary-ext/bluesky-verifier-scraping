@@ -1,0 +1,11 @@
+{
+	"profile": {
+		"handle": "disinfo.eu",
+		"name": "EU DisinfoLab"
+	},
+	"verifiedBy": {
+		"did:plc:z72i7hdynmk6r22z27h6tvur": {
+			"at": 1750329973111
+		}
+	}
+}

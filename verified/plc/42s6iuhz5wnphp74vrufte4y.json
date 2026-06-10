@@ -1,0 +1,11 @@
+{
+	"profile": {
+		"handle": "sanidad.gob.es",
+		"name": "Ministerio de Sanidad"
+	},
+	"verifiedBy": {
+		"did:plc:z72i7hdynmk6r22z27h6tvur": {
+			"at": 1778510958432
+		}
+	}
+}

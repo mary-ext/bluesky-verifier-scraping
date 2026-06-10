@@ -30,12 +30,7 @@ export const subjectProfile = v.object({
 
 export type SubjectProfile = v.InferOutput<typeof subjectProfile>;
 
-export const verifiedEntry = v.object({
-	at: dateInt,
-	profile: subjectProfile,
-});
-
-export type VerifiedEntry = v.InferOutput<typeof verifiedEntry>;
+// #region verifiers.json
 
 const verifierStatus = v.picklist(['invalid', 'valid']);
 
@@ -45,13 +40,27 @@ export const verifierEntry = v.object({
 	at: dateInt,
 	profile: profile,
 	sources: verifierSources,
-	verified: didKeyed(verifiedEntry),
 });
 
 export type VerifierEntry = v.InferOutput<typeof verifierEntry>;
 
-export const stateSchema = v.object({
+export const verifiersFile = v.object({
 	verifiers: didKeyed(verifierEntry),
 });
 
-export type State = v.InferOutput<typeof stateSchema>;
+export type VerifiersFile = v.InferOutput<typeof verifiersFile>;
+
+// #endregion
+
+// #region verified/<did>.json
+
+// one file per verified account, keyed in `verifiedBy` by every trusted verifier that issued a verification
+// for the subject — a subject can be verified by more than one verifier
+export const verifiedSubject = v.object({
+	profile: subjectProfile,
+	verifiedBy: didKeyed(v.object({ at: dateInt })),
+});
+
+export type VerifiedSubject = v.InferOutput<typeof verifiedSubject>;
+
+// #endregion

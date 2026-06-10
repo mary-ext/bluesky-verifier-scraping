@@ -1,0 +1,11 @@
+{
+	"profile": {
+		"handle": "fda.gov",
+		"name": "U.S. Food and Drug Administration"
+	},
+	"verifiedBy": {
+		"did:plc:z72i7hdynmk6r22z27h6tvur": {
+			"at": 1751314814763
+		}
+	}
+}

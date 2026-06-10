@@ -1,0 +1,11 @@
+{
+	"profile": {
+		"handle": "thurstonauditor.gov",
+		"name": "Thurston County Auditor's Office"
+	},
+	"verifiedBy": {
+		"did:plc:z72i7hdynmk6r22z27h6tvur": {
+			"at": 1751429983357
+		}
+	}
+}

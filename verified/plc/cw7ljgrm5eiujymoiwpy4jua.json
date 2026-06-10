@@ -1,0 +1,11 @@
+{
+	"profile": {
+		"handle": "torontoarchives.cityof.toronto.ca",
+		"name": "Toronto Archives"
+	},
+	"verifiedBy": {
+		"did:plc:rk25gdgk3cnnmtkvlae265nz": {
+			"at": 1764164085820
+		}
+	}
+}

@@ -1,0 +1,11 @@
+{
+	"profile": {
+		"handle": "factcheck.afp.com",
+		"name": "AFP Fact Check"
+	},
+	"verifiedBy": {
+		"did:plc:r4ve5hjtfjubdwrvlxcad62e": {
+			"at": 1760692586976
+		}
+	}
+}

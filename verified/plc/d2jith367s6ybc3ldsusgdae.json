@@ -1,0 +1,11 @@
+{
+	"profile": {
+		"handle": "latimes.com",
+		"name": "Los Angeles Times"
+	},
+	"verifiedBy": {
+		"did:plc:z72i7hdynmk6r22z27h6tvur": {
+			"at": 1747932253210
+		}
+	}
+}

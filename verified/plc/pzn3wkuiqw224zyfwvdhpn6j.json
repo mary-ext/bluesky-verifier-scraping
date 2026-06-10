@@ -1,0 +1,11 @@
+{
+	"profile": {
+		"handle": "metoffice.gov.uk",
+		"name": "Met Office - weather and climate"
+	},
+	"verifiedBy": {
+		"did:plc:z72i7hdynmk6r22z27h6tvur": {
+			"at": 1751382270959
+		}
+	}
+}

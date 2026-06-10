@@ -1,0 +1,11 @@
+{
+	"profile": {
+		"handle": "bmf-bund.de",
+		"name": "Bundesministerium der Finanzen"
+	},
+	"verifiedBy": {
+		"did:plc:z72i7hdynmk6r22z27h6tvur": {
+			"at": 1766524799286
+		}
+	}
+}

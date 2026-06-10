@@ -1,0 +1,11 @@
+{
+	"profile": {
+		"handle": "es.afp.com",
+		"name": "Agence France-Presse"
+	},
+	"verifiedBy": {
+		"did:plc:r4ve5hjtfjubdwrvlxcad62e": {
+			"at": 1760692640576
+		}
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"profile": {
+		"handle": "hennavirkkunen.bsky.social",
+		"name": "Henna Virkkunen"
+	},
+	"verifiedBy": {
+		"did:plc:oxo226vi7t2btjokm2buusoy": {
+			"at": 1760100414301
+		},
+		"did:plc:z72i7hdynmk6r22z27h6tvur": {
+			"at": 1753974441227
+		}
+	}
+}

@@ -1,0 +1,11 @@
+{
+	"profile": {
+		"handle": "ecdc.europa.eu",
+		"name": "European Centre for Disease Prevention and Control"
+	},
+	"verifiedBy": {
+		"did:plc:z72i7hdynmk6r22z27h6tvur": {
+			"at": 1755179255971
+		}
+	}
+}

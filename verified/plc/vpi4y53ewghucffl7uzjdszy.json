@@ -1,0 +1,11 @@
+{
+	"profile": {
+		"handle": "ny.gov",
+		"name": "State of New York"
+	},
+	"verifiedBy": {
+		"did:plc:z72i7hdynmk6r22z27h6tvur": {
+			"at": 1752423739856
+		}
+	}
+}

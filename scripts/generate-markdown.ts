@@ -2,7 +2,7 @@ import { Did } from '@atcute/lexicons/syntax';
 import * as v from 'valibot';
 
 import { type Source } from '../sources.ts';
-import { type State, stateSchema, type VerifierEntry } from '../types.ts';
+import { type VerifierEntry, type VerifiersFile, verifiersFile } from '../types.ts';
 
 // display order; Bluesky leads as the primary AppView
 const order = ['bluesky', 'blacksky'] as const satisfies readonly Source[];
@@ -13,12 +13,12 @@ const escape = (value: string) => {
 	return value.replace(/[<&|]/g, (char) => '&#' + char.charCodeAt(0) + ';');
 };
 
-let state: State;
+let data: VerifiersFile;
 {
-	const raw = await Deno.readTextFile('state.json');
+	const raw = await Deno.readTextFile('verifiers.json');
 	const json = JSON.parse(raw);
 
-	state = v.parse(stateSchema, json);
+	data = v.parse(verifiersFile, json);
 }
 
 const collator = new Intl.Collator('en-US');
@@ -29,7 +29,7 @@ const primarySource = (verifier: VerifierEntry) => {
 };
 
 const renderTable = (source: Source) => {
-	const entries = (Object.entries(state.verifiers) as [Did, VerifierEntry][])
+	const entries = (Object.entries(data.verifiers) as [Did, VerifierEntry][])
 		.filter(([, verifier]) => primarySource(verifier) === source)
 		.map(([did, verifier]) => ({ did, ...verifier }))
 		.sort((a, b) => {

@@ -1,0 +1,11 @@
+{
+	"profile": {
+		"handle": "osha.europa.eu",
+		"name": "European Agency for Safety and Health at Work"
+	},
+	"verifiedBy": {
+		"did:plc:z72i7hdynmk6r22z27h6tvur": {
+			"at": 1768126786161
+		}
+	}
+}

@@ -1,0 +1,11 @@
+{
+	"profile": {
+		"handle": "local.gov.uk",
+		"name": "Local Government Association (LGA)"
+	},
+	"verifiedBy": {
+		"did:plc:z72i7hdynmk6r22z27h6tvur": {
+			"at": 1753071019896
+		}
+	}
+}

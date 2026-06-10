@@ -1,0 +1,11 @@
+{
+	"profile": {
+		"handle": "ema.europa.eu",
+		"name": "European Medicines Agency"
+	},
+	"verifiedBy": {
+		"did:plc:z72i7hdynmk6r22z27h6tvur": {
+			"at": 1754521367607
+		}
+	}
+}

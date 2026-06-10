@@ -1,0 +1,11 @@
+{
+	"profile": {
+		"handle": "health-ni.gov.uk",
+		"name": "Department of Health"
+	},
+	"verifiedBy": {
+		"did:plc:z72i7hdynmk6r22z27h6tvur": {
+			"at": 1753071135132
+		}
+	}
+}

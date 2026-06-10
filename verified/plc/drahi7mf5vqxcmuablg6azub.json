@@ -1,0 +1,11 @@
+{
+	"profile": {
+		"handle": "houseofcommons.parliament.uk",
+		"name": "House of Commons"
+	},
+	"verifiedBy": {
+		"did:plc:z72i7hdynmk6r22z27h6tvur": {
+			"at": 1753309625210
+		}
+	}
+}

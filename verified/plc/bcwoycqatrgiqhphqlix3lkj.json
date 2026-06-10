@@ -1,0 +1,11 @@
+{
+	"profile": {
+		"handle": "security.microsoft.com",
+		"name": "Microsoft Security"
+	},
+	"verifiedBy": {
+		"did:plc:fivojrvylkim4nuo3pfqcf3k": {
+			"at": 1752000131591
+		}
+	}
+}

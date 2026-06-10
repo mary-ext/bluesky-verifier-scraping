@@ -1,0 +1,11 @@
+{
+	"profile": {
+		"handle": "elections.boston.gov",
+		"name": "Boston Election Department"
+	},
+	"verifiedBy": {
+		"did:plc:z72i7hdynmk6r22z27h6tvur": {
+			"at": 1752970907977
+		}
+	}
+}

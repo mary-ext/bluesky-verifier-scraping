@@ -1,0 +1,11 @@
+{
+	"profile": {
+		"handle": "vert-verified.bsky.social",
+		"name": "Veri Fried"
+	},
+	"verifiedBy": {
+		"did:plc:5h5jdov3ptqbfx2gu2ikheog": {
+			"at": 1745526526227
+		}
+	}
+}

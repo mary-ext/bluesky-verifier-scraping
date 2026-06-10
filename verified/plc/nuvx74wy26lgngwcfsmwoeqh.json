@@ -1,0 +1,11 @@
+{
+	"profile": {
+		"handle": "sfgov.sf.gov",
+		"name": "City and County of San Francisco"
+	},
+	"verifiedBy": {
+		"did:plc:z72i7hdynmk6r22z27h6tvur": {
+			"at": 1751766868643
+		}
+	}
+}

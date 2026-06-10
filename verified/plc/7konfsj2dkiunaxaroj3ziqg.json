@@ -1,0 +1,11 @@
+{
+	"profile": {
+		"handle": "stadt.muenchen.de",
+		"name": "Stadt München"
+	},
+	"verifiedBy": {
+		"did:plc:z72i7hdynmk6r22z27h6tvur": {
+			"at": 1751027188699
+		}
+	}
+}

@@ -1,0 +1,11 @@
+{
+	"profile": {
+		"handle": "bpl.boston.gov",
+		"name": "Boston Public Library"
+	},
+	"verifiedBy": {
+		"did:plc:z72i7hdynmk6r22z27h6tvur": {
+			"at": 1752623247508
+		}
+	}
+}

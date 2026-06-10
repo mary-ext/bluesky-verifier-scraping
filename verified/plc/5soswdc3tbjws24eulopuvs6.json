@@ -1,0 +1,11 @@
+{
+	"profile": {
+		"handle": "acmedsci.bsky.social",
+		"name": "Academy of Medical Sciences"
+	},
+	"verifiedBy": {
+		"did:plc:z72i7hdynmk6r22z27h6tvur": {
+			"at": 1768381834574
+		}
+	}
+}

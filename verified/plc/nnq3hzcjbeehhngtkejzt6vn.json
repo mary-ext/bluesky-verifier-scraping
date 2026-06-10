@@ -1,0 +1,11 @@
+{
+	"profile": {
+		"handle": "archaeology.boston.gov",
+		"name": "City of Boston Archaeology"
+	},
+	"verifiedBy": {
+		"did:plc:z72i7hdynmk6r22z27h6tvur": {
+			"at": 1752622313302
+		}
+	}
+}

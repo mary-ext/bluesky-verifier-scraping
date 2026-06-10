@@ -1,0 +1,11 @@
+{
+	"profile": {
+		"handle": "nsgov.bsky.social",
+		"name": "Government of Nova Scotia"
+	},
+	"verifiedBy": {
+		"did:plc:z72i7hdynmk6r22z27h6tvur": {
+			"at": 1751684789790
+		}
+	}
+}

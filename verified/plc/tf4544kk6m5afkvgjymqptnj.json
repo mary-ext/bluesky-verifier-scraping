@@ -1,0 +1,11 @@
+{
+	"profile": {
+		"handle": "planetware.bsky.social",
+		"name": "Planetware"
+	},
+	"verifiedBy": {
+		"did:plc:6q2thhy2ohzog26mmqm4pffk": {
+			"at": 1765237581281
+		}
+	}
+}

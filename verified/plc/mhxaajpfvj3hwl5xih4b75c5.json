@@ -1,0 +1,11 @@
+{
+	"profile": {
+		"handle": "commonsspeaker.parliament.uk",
+		"name": "House of Commons Speaker"
+	},
+	"verifiedBy": {
+		"did:plc:z72i7hdynmk6r22z27h6tvur": {
+			"at": 1753309835437
+		}
+	}
+}

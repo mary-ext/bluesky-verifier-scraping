@@ -1,0 +1,11 @@
+{
+	"profile": {
+		"handle": "cms.illinois.gov",
+		"name": "Illinois CMS"
+	},
+	"verifiedBy": {
+		"did:plc:z72i7hdynmk6r22z27h6tvur": {
+			"at": 1753072632430
+		}
+	}
+}

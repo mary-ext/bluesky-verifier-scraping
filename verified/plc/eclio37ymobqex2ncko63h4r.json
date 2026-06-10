@@ -1,0 +1,11 @@
+{
+	"profile": {
+		"handle": "nytimes.com",
+		"name": "The New York Times"
+	},
+	"verifiedBy": {
+		"did:plc:z72i7hdynmk6r22z27h6tvur": {
+			"at": 1745232404369
+		}
+	}
+}

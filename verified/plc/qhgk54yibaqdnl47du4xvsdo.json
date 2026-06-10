@@ -1,0 +1,11 @@
+{
+	"profile": {
+		"handle": "vert-verified-inv.bsky.social",
+		"name": "Test Verified Invalid"
+	},
+	"verifiedBy": {
+		"did:plc:5h5jdov3ptqbfx2gu2ikheog": {
+			"at": 1745017221396
+		}
+	}
+}

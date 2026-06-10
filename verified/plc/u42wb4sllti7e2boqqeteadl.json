@@ -1,0 +1,11 @@
+{
+	"profile": {
+		"handle": "311.boston.gov",
+		"name": "Boston 311"
+	},
+	"verifiedBy": {
+		"did:plc:z72i7hdynmk6r22z27h6tvur": {
+			"at": 1752620836271
+		}
+	}
+}

@@ -1,0 +1,11 @@
+{
+	"profile": {
+		"handle": "rki.de",
+		"name": "Robert Koch-Institut"
+	},
+	"verifiedBy": {
+		"did:plc:z72i7hdynmk6r22z27h6tvur": {
+			"at": 1781024861704
+		}
+	}
+}

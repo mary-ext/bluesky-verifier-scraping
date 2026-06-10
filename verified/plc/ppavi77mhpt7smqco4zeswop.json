@@ -1,0 +1,11 @@
+{
+	"profile": {
+		"handle": "iea.org",
+		"name": "International Energy Agency"
+	},
+	"verifiedBy": {
+		"did:plc:z72i7hdynmk6r22z27h6tvur": {
+			"at": 1774195327333
+		}
+	}
+}

@@ -1,0 +1,11 @@
+{
+	"profile": {
+		"handle": "bmi.bund.de",
+		"name": "Bundesministerium des Innern"
+	},
+	"verifiedBy": {
+		"did:plc:z72i7hdynmk6r22z27h6tvur": {
+			"at": 1777981269738
+		}
+	}
+}

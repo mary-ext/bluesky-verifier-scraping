@@ -1,0 +1,11 @@
+{
+	"profile": {
+		"handle": "threatintel.microsoft.com",
+		"name": "Microsoft Threat Intelligence"
+	},
+	"verifiedBy": {
+		"did:plc:fivojrvylkim4nuo3pfqcf3k": {
+			"at": 1752011044742
+		}
+	}
+}

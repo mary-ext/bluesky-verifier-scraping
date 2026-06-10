@@ -1,0 +1,11 @@
+{
+	"profile": {
+		"handle": "torontoopendata.cityof.toronto.ca",
+		"name": "Toronto Open Data"
+	},
+	"verifiedBy": {
+		"did:plc:rk25gdgk3cnnmtkvlae265nz": {
+			"at": 1764701915656
+		}
+	}
+}

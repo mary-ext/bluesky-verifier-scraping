@@ -1,0 +1,255 @@
+{
+	"verifiers": {
+		"did:plc:2w45zyhuklwihpdc7oj3mi63": {
+			"at": 1767746256529,
+			"profile": {
+				"handle": "forbes.com",
+				"name": "Forbes"
+			},
+			"sources": {
+				"bluesky": "valid"
+			}
+		},
+		"did:plc:5h5jdov3ptqbfx2gu2ikheog": {
+			"at": 1745366066121,
+			"profile": {
+				"handle": "vert-verifier.bsky.social",
+				"name": "Test Verifier"
+			},
+			"sources": {
+				"bluesky": "valid"
+			}
+		},
+		"did:plc:5u54z2qgkq43dh2nzwzdbbhb": {
+			"at": 1748012626791,
+			"profile": {
+				"handle": "financialtimes.com",
+				"name": "Financial Times"
+			},
+			"sources": {
+				"bluesky": "valid"
+			}
+		},
+		"did:plc:6q2thhy2ohzog26mmqm4pffk": {
+			"at": 1764203684003,
+			"profile": {
+				"handle": "flipboard.com",
+				"name": "Flipboard"
+			},
+			"sources": {
+				"bluesky": "valid"
+			}
+		},
+		"did:plc:b2kutgxqlltwc6lhs724cfwr": {
+			"at": 1745295752283,
+			"profile": {
+				"handle": "theathletic.com",
+				"name": "The Athletic"
+			},
+			"sources": {
+				"bluesky": "valid"
+			}
+		},
+		"did:plc:d2jith367s6ybc3ldsusgdae": {
+			"at": 1748377318299,
+			"profile": {
+				"handle": "latimes.com",
+				"name": "Los Angeles Times"
+			},
+			"sources": {
+				"bluesky": "valid"
+			}
+		},
+		"did:plc:dzezcmpb3fhcpns4n4xm4ur5": {
+			"at": 1747936551867,
+			"profile": {
+				"handle": "cnn.com",
+				"name": "CNN"
+			},
+			"sources": {
+				"bluesky": "valid"
+			}
+		},
+		"did:plc:eclio37ymobqex2ncko63h4r": {
+			"at": 1745263934370,
+			"profile": {
+				"handle": "nytimes.com",
+				"name": "The New York Times"
+			},
+			"sources": {
+				"bluesky": "valid"
+			}
+		},
+		"did:plc:fivojrvylkim4nuo3pfqcf3k": {
+			"at": 1751999904903,
+			"profile": {
+				"handle": "microsoft.com",
+				"name": "Microsoft"
+			},
+			"sources": {
+				"bluesky": "valid"
+			}
+		},
+		"did:plc:hbdc3q6k5lforao5vyuarvsp": {
+			"at": 1768005442587,
+			"profile": {
+				"handle": "restofworld.org",
+				"name": "Rest of World"
+			},
+			"sources": {
+				"bluesky": "valid"
+			}
+		},
+		"did:plc:i3fhjvvkbmirhyu4aeihhrnv": {
+			"at": 1755723278048,
+			"profile": {
+				"handle": "wsj.com",
+				"name": "The Wall Street Journal"
+			},
+			"sources": {
+				"bluesky": "valid"
+			}
+		},
+		"did:plc:inz4fkbbp7ms3ixufw6xuvdi": {
+			"at": 1745267148544,
+			"profile": {
+				"handle": "wired.com",
+				"name": "WIRED"
+			},
+			"sources": {
+				"bluesky": "valid"
+			}
+		},
+		"did:plc:j4eroku3volozvv6ljsnnfec": {
+			"at": 1762965688015,
+			"profile": {
+				"handle": "huffpost.com",
+				"name": "HuffPost"
+			},
+			"sources": {
+				"bluesky": "valid"
+			}
+		},
+		"did:plc:k5nskatzhyxersjilvtnz4lh": {
+			"at": 1748293279147,
+			"profile": {
+				"handle": "washingtonpost.com",
+				"name": "The Washington Post"
+			},
+			"sources": {
+				"bluesky": "valid"
+			}
+		},
+		"did:plc:kta7dqcqoamo5ixlajxbtjps": {
+			"at": 1781048974672,
+			"profile": {
+				"handle": "blackskyweb.xyz",
+				"name": "Blacksky Algorithms"
+			},
+			"sources": {
+				"blacksky": "valid"
+			}
+		},
+		"did:plc:m7ks2xhfuku7errrtfjux2lg": {
+			"at": 1770684766990,
+			"profile": {
+				"handle": "cnbc.com",
+				"name": "CNBC"
+			},
+			"sources": {
+				"bluesky": "valid"
+			}
+		},
+		"did:plc:ofbkqcjzvm6gtwuufsubnkaf": {
+			"at": 1753202006385,
+			"profile": {
+				"handle": "ms.now",
+				"name": "MS NOW"
+			},
+			"sources": {
+				"bluesky": "valid"
+			}
+		},
+		"did:plc:oxo226vi7t2btjokm2buusoy": {
+			"at": 1760094346132,
+			"profile": {
+				"handle": "ec.europa.eu",
+				"name": "European Commission"
+			},
+			"sources": {
+				"bluesky": "valid"
+			}
+		},
+		"did:plc:r4ve5hjtfjubdwrvlxcad62e": {
+			"at": 1760692587298,
+			"profile": {
+				"handle": "en.afp.com",
+				"name": "AFP News Agency"
+			},
+			"sources": {
+				"bluesky": "valid"
+			}
+		},
+		"did:plc:rk25gdgk3cnnmtkvlae265nz": {
+			"at": 1763685288140,
+			"profile": {
+				"handle": "toronto.ca",
+				"name": "City of Toronto"
+			},
+			"sources": {
+				"bluesky": "valid"
+			}
+		},
+		"did:plc:sqbswn3lalcc2dlh2k7zdpuw": {
+			"at": 1747935627753,
+			"profile": {
+				"handle": "yahoofinance.com",
+				"name": "Yahoo Finance"
+			},
+			"sources": {
+				"bluesky": "valid"
+			}
+		},
+		"did:plc:wmho6q2uiyktkam3jsvrms3s": {
+			"at": 1747935072094,
+			"profile": {
+				"handle": "nbcnews.com",
+				"name": "NBC News"
+			},
+			"sources": {
+				"bluesky": "valid"
+			}
+		},
+		"did:plc:xwqgusybtrpm67tcwqdfmzvy": {
+			"at": 1749582606032,
+			"profile": {
+				"handle": "ign.com",
+				"name": "IGN"
+			},
+			"sources": {
+				"bluesky": "valid"
+			}
+		},
+		"did:plc:y3xrmnwvkvsq4tqcsgwch4na": {
+			"at": 1748439013891,
+			"profile": {
+				"handle": "theglobeandmail.com",
+				"name": "The Globe and Mail"
+			},
+			"sources": {
+				"bluesky": "valid"
+			}
+		},
+		"did:plc:z72i7hdynmk6r22z27h6tvur": {
+			"at": 1745257465030,
+			"profile": {
+				"handle": "bsky.app",
+				"name": "Bluesky"
+			},
+			"sources": {
+				"blacksky": "valid",
+				"bluesky": "valid"
+			}
+		}
+	}
+}

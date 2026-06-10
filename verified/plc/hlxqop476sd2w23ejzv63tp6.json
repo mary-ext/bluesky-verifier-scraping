@@ -1,0 +1,11 @@
+{
+	"profile": {
+		"handle": "atap.lbl.gov",
+		"name": "LBNL Accelerator Technology & Applied Physics"
+	},
+	"verifiedBy": {
+		"did:plc:z72i7hdynmk6r22z27h6tvur": {
+			"at": 1753056294158
+		}
+	}
+}

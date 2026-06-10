@@ -1,0 +1,11 @@
+{
+	"profile": {
+		"handle": "calgary.ca",
+		"name": "City of Calgary"
+	},
+	"verifiedBy": {
+		"did:plc:z72i7hdynmk6r22z27h6tvur": {
+			"at": 1764731298345
+		}
+	}
+}

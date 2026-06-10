@@ -1,0 +1,11 @@
+{
+	"profile": {
+		"handle": "lner.co.uk",
+		"name": "London North Eastern Railway"
+	},
+	"verifiedBy": {
+		"did:plc:z72i7hdynmk6r22z27h6tvur": {
+			"at": 1753431403181
+		}
+	}
+}

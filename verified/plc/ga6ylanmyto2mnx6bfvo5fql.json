@@ -1,0 +1,11 @@
+{
+	"profile": {
+		"handle": "paris.fr",
+		"name": "Ville de Paris"
+	},
+	"verifiedBy": {
+		"did:plc:z72i7hdynmk6r22z27h6tvur": {
+			"at": 1746053638633
+		}
+	}
+}

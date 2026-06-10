@@ -1,0 +1,11 @@
+{
+	"profile": {
+		"handle": "nodejs.org",
+		"name": "Node.js"
+	},
+	"verifiedBy": {
+		"did:plc:z72i7hdynmk6r22z27h6tvur": {
+			"at": 1769738670427
+		}
+	}
+}

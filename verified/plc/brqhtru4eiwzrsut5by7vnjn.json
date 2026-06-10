@@ -1,0 +1,11 @@
+{
+	"profile": {
+		"handle": "boone.bsky.social",
+		"name": "Boone Ashworth"
+	},
+	"verifiedBy": {
+		"did:plc:inz4fkbbp7ms3ixufw6xuvdi": {
+			"at": 1745267851200
+		}
+	}
+}

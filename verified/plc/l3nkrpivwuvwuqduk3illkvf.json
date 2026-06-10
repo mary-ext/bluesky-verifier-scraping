@@ -1,0 +1,11 @@
+{
+	"profile": {
+		"handle": "sky-follower-bridge.dev",
+		"name": "Sky Follower Bridge"
+	},
+	"verifiedBy": {
+		"did:plc:z72i7hdynmk6r22z27h6tvur": {
+			"at": 1780443791346
+		}
+	}
+}

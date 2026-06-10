@@ -1,0 +1,11 @@
+{
+	"profile": {
+		"handle": "council.nyc.gov",
+		"name": "New York City Council"
+	},
+	"verifiedBy": {
+		"did:plc:z72i7hdynmk6r22z27h6tvur": {
+			"at": 1753072375017
+		}
+	}
+}

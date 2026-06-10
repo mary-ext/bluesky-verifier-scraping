@@ -1,0 +1,11 @@
+{
+	"profile": {
+		"handle": "wfp.org",
+		"name": "World Food Programme"
+	},
+	"verifiedBy": {
+		"did:plc:z72i7hdynmk6r22z27h6tvur": {
+			"at": 1770909093638
+		}
+	}
+}

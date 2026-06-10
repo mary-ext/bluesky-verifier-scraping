@@ -1,0 +1,11 @@
+{
+	"profile": {
+		"handle": "wikipedia.org",
+		"name": "Wikipedia"
+	},
+	"verifiedBy": {
+		"did:plc:z72i7hdynmk6r22z27h6tvur": {
+			"at": 1753318722084
+		}
+	}
+}

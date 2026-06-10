@@ -1,0 +1,14 @@
+{
+	"profile": {
+		"handle": "maddow.bsky.social",
+		"name": "Rachel Maddow"
+	},
+	"verifiedBy": {
+		"did:plc:ofbkqcjzvm6gtwuufsubnkaf": {
+			"at": 1763152630608
+		},
+		"did:plc:z72i7hdynmk6r22z27h6tvur": {
+			"at": 1745232422008
+		}
+	}
+}

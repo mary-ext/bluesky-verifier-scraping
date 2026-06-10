@@ -1,0 +1,11 @@
+{
+	"profile": {
+		"handle": "alaskabeacon.com",
+		"name": "Alaska Beacon"
+	},
+	"verifiedBy": {
+		"did:plc:z72i7hdynmk6r22z27h6tvur": {
+			"at": 1774490028888
+		}
+	}
+}

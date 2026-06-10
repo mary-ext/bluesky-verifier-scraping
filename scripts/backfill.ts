@@ -12,7 +12,7 @@ import { Did, isDid } from '@atcute/lexicons/syntax';
 
 import { createPool } from '../concurrency.ts';
 import { type Source, sources } from '../sources.ts';
-import { type Profile, type State, type SubjectProfile, type VerifiedEntry } from '../types.ts';
+import { type Profile, type SubjectProfile, type VerifiedSubject, type VerifiersFile } from '../types.ts';
 
 const now = Date.now();
 
@@ -50,14 +50,14 @@ const sortKeys = (_key: string, value: unknown) => {
 
 // #region prior state
 
-// carry first-seen timestamps forward across runs, tolerating both the current shape and the pre-multi-source
-// `dids` shape so the restructure does not reset every verifier's "since" history
+// carry first-seen timestamps forward across runs so re-scraping does not reset every verifier's "since"
+// history to the current run
 const previousAt = new Map<Did, number>();
 try {
-	const raw = await Deno.readTextFile('state.json');
-	const json = JSON.parse(raw) as Record<string, unknown>;
+	const raw = await Deno.readTextFile('verifiers.json');
+	const json = JSON.parse(raw) as { verifiers?: Record<string, { at?: unknown }> };
 
-	const entries = (json.verifiers ?? json.dids) as Record<string, { at?: unknown }> | undefined;
+	const entries = json.verifiers;
 	if (entries !== undefined) {
 		for (const did in entries) {
 			const at = entries[did]?.at;
@@ -155,7 +155,6 @@ type Verifier = {
 	at: number;
 	profile: Profile;
 	sources: Partial<Record<Source, 'invalid' | 'valid'>>;
-	verified: Record<Did, VerifiedEntry>;
 };
 
 const verifiers = new Map<Did, Verifier>();
@@ -201,7 +200,6 @@ await Promise.all(candidates.map((did) => {
 			at: previousAt.get(did) ?? now,
 			profile: profile,
 			sources: statuses,
-			verified: {},
 		});
 	});
 }));
@@ -335,33 +333,75 @@ const profiles = new Map<Did, SubjectProfile>();
 	}));
 }
 
-// fall back to the record-embedded profile (handle/name at verification time) when the account is gone, so
-// the verifier -> subject relationship is never dropped
-for (const [did, verifier] of verifiers) {
-	const verified: Record<Did, VerifiedEntry> = {};
+// invert the issuer -> subject records into one entry per subject, collecting every verifier that issued a
+// verification for it. the live profile is preferred; the record-embedded profile (handle/name at
+// verification time) of the most recent verification is the fallback when the account is gone, so the
+// relationship is never dropped
+type SubjectEntry = {
+	fallback: { at: number; profile: SubjectProfile };
+	verifiedBy: Record<Did, { at: number }>;
+};
 
-	for (const record of recordsByVerifier.get(did) ?? []) {
-		verified[record.subject] = {
-			at: record.at,
-			profile: profiles.get(record.subject) ??
-				{ handle: record.handle, name: record.displayName || undefined },
-		};
+const bySubject = new Map<Did, SubjectEntry>();
+for (const [issuer, records] of recordsByVerifier) {
+	for (const record of records) {
+		let entry = bySubject.get(record.subject);
+		if (entry === undefined) {
+			entry = { fallback: { at: -Infinity, profile: { handle: '' } }, verifiedBy: {} };
+			bySubject.set(record.subject, entry);
+		}
+
+		entry.verifiedBy[issuer] = { at: record.at };
+
+		if (record.at > entry.fallback.at) {
+			entry.fallback = {
+				at: record.at,
+				profile: { handle: record.handle, name: record.displayName || undefined },
+			};
+		}
 	}
-
-	verifier.verified = verified;
 }
 
 // #endregion
 
 // #region persist
 
-const state: State = {
-	verifiers: Object.fromEntries(verifiers) as State['verifiers'],
-};
-
 {
-	const json = JSON.stringify(state, sortKeys, '\t');
-	await Deno.writeTextFile('state.json', json);
+	const file: VerifiersFile = {
+		verifiers: Object.fromEntries(verifiers) as VerifiersFile['verifiers'],
+	};
+
+	const json = JSON.stringify(file, sortKeys, '\t');
+	await Deno.writeTextFile('verifiers.json', json);
+}
+
+// rewrite the verified/ tree from scratch so subjects that lost their last verification leave no stale file
+{
+	try {
+		await Deno.remove('verified', { recursive: true });
+	} catch (err) {
+		if (!(err instanceof Deno.errors.NotFound)) {
+			throw err;
+		}
+	}
+
+	const created = new Set<string>();
+	for (const [subject, entry] of bySubject) {
+		const data: VerifiedSubject = {
+			profile: profiles.get(subject) ?? entry.fallback.profile,
+			verifiedBy: entry.verifiedBy,
+		};
+
+		// did:plc:abc -> verified/plc/abc.json, did:web:host -> verified/web/host.json
+		const path = `verified/${subject.slice(4).replaceAll(':', '/')}.json`;
+		const dir = path.slice(0, path.lastIndexOf('/'));
+		if (!created.has(dir)) {
+			await Deno.mkdir(dir, { recursive: true });
+			created.add(dir);
+		}
+
+		await Deno.writeTextFile(path, JSON.stringify(data, sortKeys, '\t'));
+	}
 }
 
 // #endregion

@@ -1,0 +1,11 @@
+{
+	"profile": {
+		"handle": "saltlakehealth.gov",
+		"name": "Salt Lake County Health Department"
+	},
+	"verifiedBy": {
+		"did:plc:z72i7hdynmk6r22z27h6tvur": {
+			"at": 1753070274253
+		}
+	}
+}

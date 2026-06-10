@@ -1,0 +1,11 @@
+{
+	"profile": {
+		"handle": "consilium.europa.eu",
+		"name": "EU Council"
+	},
+	"verifiedBy": {
+		"did:plc:z72i7hdynmk6r22z27h6tvur": {
+			"at": 1745257946047
+		}
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"profile": {
+		"handle": "jonmackenzie.bsky.social",
+		"name": "Jon Mackenzie"
+	},
+	"verifiedBy": {
+		"did:plc:b2kutgxqlltwc6lhs724cfwr": {
+			"at": 1745344520279
+		},
+		"did:plc:z72i7hdynmk6r22z27h6tvur": {
+			"at": 1759175771333
+		}
+	}
+}

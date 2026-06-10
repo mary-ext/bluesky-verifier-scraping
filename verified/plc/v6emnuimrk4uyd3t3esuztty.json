@@ -1,0 +1,14 @@
+{
+	"profile": {
+		"handle": "matthewhaybrown.bsky.social",
+		"name": "Matthew Hay Brown"
+	},
+	"verifiedBy": {
+		"did:plc:k5nskatzhyxersjilvtnz4lh": {
+			"at": 1748293778977
+		},
+		"did:plc:z72i7hdynmk6r22z27h6tvur": {
+			"at": 1773854091119
+		}
+	}
+}

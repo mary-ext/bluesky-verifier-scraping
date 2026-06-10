@@ -1,0 +1,11 @@
+{
+	"profile": {
+		"handle": "osi-saf.eumetsat.int",
+		"name": "EUMETSAT OSI SAF"
+	},
+	"verifiedBy": {
+		"did:plc:z72i7hdynmk6r22z27h6tvur": {
+			"at": 1769805338373
+		}
+	}
+}

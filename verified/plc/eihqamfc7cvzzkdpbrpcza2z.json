@@ -1,0 +1,11 @@
+{
+	"profile": {
+		"handle": "azure.microsoft.com",
+		"name": "Microsoft Azure"
+	},
+	"verifiedBy": {
+		"did:plc:fivojrvylkim4nuo3pfqcf3k": {
+			"at": 1752000115767
+		}
+	}
+}

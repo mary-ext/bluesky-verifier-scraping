@@ -1,0 +1,11 @@
+{
+	"profile": {
+		"handle": "politifact.bsky.social",
+		"name": "PolitiFact"
+	},
+	"verifiedBy": {
+		"did:plc:z72i7hdynmk6r22z27h6tvur": {
+			"at": 1751404156891
+		}
+	}
+}

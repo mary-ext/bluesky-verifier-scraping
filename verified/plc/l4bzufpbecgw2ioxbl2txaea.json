@@ -1,0 +1,11 @@
+{
+	"profile": {
+		"handle": "ac-saf.eumetsat.int",
+		"name": "EUMETSAT AC SAF"
+	},
+	"verifiedBy": {
+		"did:plc:z72i7hdynmk6r22z27h6tvur": {
+			"at": 1769805296558
+		}
+	}
+}

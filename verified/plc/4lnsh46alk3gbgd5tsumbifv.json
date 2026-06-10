@@ -1,0 +1,14 @@
+{
+	"profile": {
+		"handle": "dansaltzstein.bsky.social",
+		"name": "Dan Saltzstein"
+	},
+	"verifiedBy": {
+		"did:plc:eclio37ymobqex2ncko63h4r": {
+			"at": 1745623751265
+		},
+		"did:plc:z72i7hdynmk6r22z27h6tvur": {
+			"at": 1773853984235
+		}
+	}
+}

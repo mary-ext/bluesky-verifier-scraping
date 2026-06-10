@@ -1,0 +1,11 @@
+{
+	"profile": {
+		"handle": "firefox.com",
+		"name": "Firefox"
+	},
+	"verifiedBy": {
+		"did:plc:z72i7hdynmk6r22z27h6tvur": {
+			"at": 1766527808605
+		}
+	}
+}

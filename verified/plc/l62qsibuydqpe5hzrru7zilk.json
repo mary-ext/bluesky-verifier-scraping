@@ -1,0 +1,11 @@
+{
+	"profile": {
+		"handle": "wien.gv.at",
+		"name": "Stadt Wien"
+	},
+	"verifiedBy": {
+		"did:plc:z72i7hdynmk6r22z27h6tvur": {
+			"at": 1750405425634
+		}
+	}
+}

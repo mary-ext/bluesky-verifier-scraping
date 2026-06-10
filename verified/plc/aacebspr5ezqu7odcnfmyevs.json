@@ -1,0 +1,11 @@
+{
+	"profile": {
+		"handle": "trackaipac.com",
+		"name": "AIPAC Tracker"
+	},
+	"verifiedBy": {
+		"did:plc:z72i7hdynmk6r22z27h6tvur": {
+			"at": 1768851787417
+		}
+	}
+}
