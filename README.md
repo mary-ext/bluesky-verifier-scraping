@@ -1,8 +1,9 @@
 # Bluesky verified accounts
 
-Last updated: 2026-02-10T00:55:06.504Z[^1]
+Last updated: 2026-06-09T23:53:57.688Z[^1]
 
-<!-- table-start -->
+## Bluesky
+
 | Account |
 | ------- |
 | ✅ <a href="https://bsky.app/profile/did:plc:r4ve5hjtfjubdwrvlxcad62e"><b>AFP News Agency</b> (@en.afp.com)</a> |
@@ -29,6 +30,11 @@ Last updated: 2026-02-10T00:55:06.504Z[^1]
 | ✅ <a href="https://bsky.app/profile/did:plc:k5nskatzhyxersjilvtnz4lh"><b>The Washington Post</b> (@washingtonpost.com)</a> |
 | ✅ <a href="https://bsky.app/profile/did:plc:inz4fkbbp7ms3ixufw6xuvdi"><b>WIRED</b> (@wired.com)</a> |
 | ✅ <a href="https://bsky.app/profile/did:plc:sqbswn3lalcc2dlh2k7zdpuw"><b>Yahoo Finance</b> (@yahoofinance.com)</a> |
-<!-- table-end -->
+
+## Blacksky
+
+| Account |
+| ------- |
+| ✅ <a href="https://bsky.app/profile/did:plc:kta7dqcqoamo5ixlajxbtjps"><b>Blacksky Algorithms</b> (@blackskyweb.xyz)</a> |
 
 [^1]: Reflecting actual changes, not when the scraper was last run

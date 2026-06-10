@@ -1,16 +1,18 @@
-scraper that tracks Bluesky's trusted verifier accounts, written in TypeScript for Deno
+scraper that tracks trusted verifier accounts across atproto AppViews, written in TypeScript for Deno
 
 it queries a relay for repos holding `app.bsky.graph.verification` records, checks each profile's verifier
-status against the appview, persists the result to `state.json`, and renders a Markdown table into `README.md`.
-a GitHub Actions cron runs it daily and commits the updated state and README.
+status against every configured AppView (Bluesky and Blacksky, see `sources.ts`), and reads each verifier's
+verification records to capture who it verified. it persists everything to `state.json` and renders a Markdown
+table per source into `README.md` (the verified-account lists live in `state.json` only). a GitHub Actions
+cron runs it daily and commits the updated state and README.
 
 ## development notes
 
 ### project management
 
 - the project runs on Deno; CI installs it via `denoland/setup-deno`, there is no local toolchain manifest
-- the daily scrape lives in `.github/workflows/scrape.yaml`, which runs the scripts under `scripts/` and commits
-  `state.json` and `README.md`
+- the daily scrape lives in `.github/workflows/scrape.yaml`, which runs the scripts under `scripts/` and
+  commits `state.json` and `README.md`
 - run a script with `deno run -A ./scripts/<name>.ts`
 - format with `deno fmt`
 - lint with `deno lint`

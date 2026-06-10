@@ -1,45 +1,65 @@
-import { Did, isDid, isHandle } from '@atcute/lexicons/syntax';
-import * as v from '@badrap/valita';
+import { type Did, isDid, isHandle } from '@atcute/lexicons/syntax';
+import * as v from 'valibot';
 
-const handleString = v.string().assert((input) => isHandle(input), `must be a handle`);
+import { type Source, sources } from './sources.ts';
 
-const dateInt = v.number().chain((value) => {
-	const date = new Date(value);
-	const ts = date.getTime();
+const handleString = v.pipe(v.string(), v.check((value) => isHandle(value), 'must be a handle'));
 
-	if (Number.isNaN(ts)) {
-		return v.err(`invalid date`);
-	}
+const dateInt = v.pipe(
+	v.number(),
+	v.check((value) => !Number.isNaN(new Date(value).getTime()), 'invalid date'),
+);
 
-	return v.ok(ts);
+const didKeyed = <TValue extends v.GenericSchema>(value: TValue) => {
+	return v.pipe(
+		v.record(v.string(), value),
+		v.check((input) => Object.keys(input).every(isDid), 'keys must be dids'),
+		v.transform((input) => input as Record<Did, v.InferOutput<TValue>>),
+	);
+};
+
+export const profile = v.object({
+	handle: handleString,
+	name: v.optional(v.string()),
 });
 
-export const verificationEntry = v.object({
+export type Profile = v.InferOutput<typeof profile>;
+
+// verified subjects are stored but never rendered, so their handle is kept as a plain string rather than
+// asserted against handle syntax — a malformed handle on some obscure subject must not break the whole parse
+export const subjectProfile = v.object({
+	handle: v.string(),
+	name: v.optional(v.string()),
+});
+
+export type SubjectProfile = v.InferOutput<typeof subjectProfile>;
+
+export const verifiedEntry = v.object({
 	at: dateInt,
-	profile: v.object({
-		name: v.string().optional(),
-		handle: handleString,
-	}),
-	valid: v.boolean().optional(),
+	profile: subjectProfile,
 });
 
-export type VerificationEntry = v.Infer<typeof verificationEntry>;
+export type VerifiedEntry = v.InferOutput<typeof verifiedEntry>;
+
+const verifierStatus = v.picklist(['invalid', 'valid']);
+
+const verifierSources = v.pipe(
+	v.record(v.string(), verifierStatus),
+	v.check((input) => Object.keys(input).every((key) => key in sources), 'unknown source'),
+	v.transform((input) => input as Partial<Record<Source, v.InferOutput<typeof verifierStatus>>>),
+);
+
+export const verifierEntry = v.object({
+	at: dateInt,
+	profile: profile,
+	sources: verifierSources,
+	verified: didKeyed(verifiedEntry),
+});
+
+export type VerifierEntry = v.InferOutput<typeof verifierEntry>;
 
 export const stateSchema = v.object({
-	dids: v.record(verificationEntry).chain((input) => {
-		for (const key in input) {
-			if (isDid(key)) {
-				continue;
-			}
-
-			return v.err({
-				message: `must be a did key`,
-				path: [key],
-			});
-		}
-
-		return v.ok(input as Record<Did, VerificationEntry>);
-	}),
+	verifiers: didKeyed(verifierEntry),
 });
 
-export type State = v.Infer<typeof stateSchema>;
+export type State = v.InferOutput<typeof stateSchema>;
