@@ -1,22 +1,18 @@
-import { type Did, isDid, isHandle } from '@atcute/lexicons/syntax';
+import { type Did, type Handle, isDid, isHandle } from '@atcute/lexicons/syntax';
 import * as v from 'valibot';
 
 import { type Source, sources } from './sources.ts';
 
-const handleString = v.pipe(v.string(), v.check((value) => isHandle(value), 'must be a handle'));
+const handleString = v.custom<Handle>(isHandle, 'must be a handle');
+
+const didString = v.custom<Did>(isDid, 'must be a did');
 
 const dateInt = v.pipe(
 	v.number(),
 	v.check((value) => !Number.isNaN(new Date(value).getTime()), 'invalid date'),
 );
 
-const didKeyed = <TValue extends v.GenericSchema>(value: TValue) => {
-	return v.pipe(
-		v.record(v.string(), value),
-		v.check((input) => Object.keys(input).every(isDid), 'keys must be dids'),
-		v.transform((input) => input as Record<Did, v.InferOutput<TValue>>),
-	);
-};
+const didKeyed = <TValue extends v.GenericSchema>(value: TValue) => v.record(didString, value);
 
 export const profile = v.object({
 	handle: handleString,
@@ -43,11 +39,7 @@ export type VerifiedEntry = v.InferOutput<typeof verifiedEntry>;
 
 const verifierStatus = v.picklist(['invalid', 'valid']);
 
-const verifierSources = v.pipe(
-	v.record(v.string(), verifierStatus),
-	v.check((input) => Object.keys(input).every((key) => key in sources), 'unknown source'),
-	v.transform((input) => input as Partial<Record<Source, v.InferOutput<typeof verifierStatus>>>),
-);
+const verifierSources = v.record(v.picklist(Object.keys(sources) as Source[]), verifierStatus);
 
 export const verifierEntry = v.object({
 	at: dateInt,
