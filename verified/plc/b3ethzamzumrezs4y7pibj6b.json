@@ -4,6 +4,9 @@
 		"name": "JD (by way of Blacksky)"
 	},
 	"verifiedBy": {
+		"did:plc:hd564mpf6bekrwzyhvujs54b": {
+			"at": 1780756091744
+		},
 		"did:plc:kta7dqcqoamo5ixlajxbtjps": {
 			"at": 1773255226887
 		}

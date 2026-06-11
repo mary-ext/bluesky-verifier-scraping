@@ -1,0 +1,11 @@
+{
+	"profile": {
+		"handle": "aafpfoundation.bsky.social",
+		"name": "AAFP Foundation"
+	},
+	"verifiedBy": {
+		"did:plc:hd564mpf6bekrwzyhvujs54b": {
+			"at": 1781061224995
+		}
+	}
+}

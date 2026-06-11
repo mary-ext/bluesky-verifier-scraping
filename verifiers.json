@@ -100,6 +100,16 @@
 				"bluesky": "valid"
 			}
 		},
+		"did:plc:hd564mpf6bekrwzyhvujs54b": {
+			"at": 1781139097362,
+			"profile": {
+				"handle": "medsky.network",
+				"name": "Medsky Network"
+			},
+			"sources": {
+				"blacksky": "valid"
+			}
+		},
 		"did:plc:i3fhjvvkbmirhyu4aeihhrnv": {
 			"at": 1755723278048,
 			"profile": {

@@ -1,0 +1,11 @@
+{
+	"profile": {
+		"handle": "cdph.bsky.social",
+		"name": "Chicago Department of Public Health"
+	},
+	"verifiedBy": {
+		"did:plc:hd564mpf6bekrwzyhvujs54b": {
+			"at": 1781105416132
+		}
+	}
+}
