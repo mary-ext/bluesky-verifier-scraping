@@ -1,11 +1,14 @@
 {
 	"profile": {
-		"handle": "velshimsnow.bsky.social",
-		"name": "\"Velshi\" on MS NOW"
+		"handle": "11thhourmsnow.bsky.social",
+		"name": "11th Hour with Ali Velshi"
 	},
 	"verifiedBy": {
 		"did:plc:ofbkqcjzvm6gtwuufsubnkaf": {
 			"at": 1753202514124
+		},
+		"did:plc:z72i7hdynmk6r22z27h6tvur": {
+			"at": 1781382497324
 		}
 	}
 }

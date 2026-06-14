@@ -1,11 +1,14 @@
 {
 	"profile": {
-		"handle": "skhanjr.bsky.social",
+		"handle": "skhanjr.com",
 		"name": "Sam Khan Jr."
 	},
 	"verifiedBy": {
 		"did:plc:b2kutgxqlltwc6lhs724cfwr": {
 			"at": 1745299097308
+		},
+		"did:plc:z72i7hdynmk6r22z27h6tvur": {
+			"at": 1781324780500
 		}
 	}
 }

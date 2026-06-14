@@ -1,11 +1,14 @@
 {
 	"profile": {
 		"handle": "richferro.com",
-		"name": "Richard Ferro, MD"
+		"name": "Richard Ferro, MD MSc"
 	},
 	"verifiedBy": {
+		"did:plc:hd564mpf6bekrwzyhvujs54b": {
+			"at": 1781359400038
+		},
 		"did:plc:z72i7hdynmk6r22z27h6tvur": {
-			"at": 1778533957163
+			"at": 1781365821164
 		}
 	}
 }
