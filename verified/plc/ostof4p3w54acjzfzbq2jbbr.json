@@ -1,11 +1,11 @@
 {
 	"profile": {
-		"handle": "handle.invalid",
-		"name": "NOAA"
+		"handle": "gregrucka.com",
+		"name": "Ruckawriter"
 	},
 	"verifiedBy": {
 		"did:plc:z72i7hdynmk6r22z27h6tvur": {
-			"at": 1753072400622
+			"at": 1781610194635
 		}
 	}
 }
