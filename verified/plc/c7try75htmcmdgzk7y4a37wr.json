@@ -1,11 +1,11 @@
 {
 	"profile": {
-		"handle": "handle.invalid",
-		"name": "APHA"
+		"handle": "lush.com",
+		"name": "Lush"
 	},
 	"verifiedBy": {
 		"did:plc:z72i7hdynmk6r22z27h6tvur": {
-			"at": 1768869857808
+			"at": 1782491169047
 		}
 	}
 }
