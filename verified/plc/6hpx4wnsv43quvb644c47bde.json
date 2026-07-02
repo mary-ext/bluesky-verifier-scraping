@@ -1,11 +1,11 @@
 {
 	"profile": {
-		"handle": "handle.invalid",
+		"handle": "ampublichealth.bsky.social",
 		"name": "APHA"
 	},
 	"verifiedBy": {
 		"did:plc:z72i7hdynmk6r22z27h6tvur": {
-			"at": 1768869857808
+			"at": 1782936370688
 		}
 	}
 }
