@@ -200,6 +200,16 @@
 				"bluesky": "valid"
 			}
 		},
+		"did:plc:rekelktn5jkrlzdnkc5376ot": {
+			"at": 1783046639727,
+			"profile": {
+				"handle": "fastcompany.com",
+				"name": "Fast Company"
+			},
+			"sources": {
+				"bluesky": "valid"
+			}
+		},
 		"did:plc:rk25gdgk3cnnmtkvlae265nz": {
 			"at": 1763685288140,
 			"profile": {

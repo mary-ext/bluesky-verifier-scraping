@@ -1,6 +1,6 @@
 # Bluesky verified accounts
 
-Last updated: 2026-06-11T00:52:10.186Z[^1]
+Last updated: 2026-07-03T02:44:36.126Z[^1]
 
 ## Bluesky
 
@@ -12,6 +12,7 @@ Last updated: 2026-06-11T00:52:10.186Z[^1]
 | ✅ <a href="https://bsky.app/profile/did:plc:m7ks2xhfuku7errrtfjux2lg"><b>CNBC</b> (@cnbc.com)</a> |
 | ✅ <a href="https://bsky.app/profile/did:plc:dzezcmpb3fhcpns4n4xm4ur5"><b>CNN</b> (@cnn.com)</a> |
 | ✅ <a href="https://bsky.app/profile/did:plc:oxo226vi7t2btjokm2buusoy"><b>European Commission</b> (@ec.europa.eu)</a> |
+| ✅ <a href="https://bsky.app/profile/did:plc:rekelktn5jkrlzdnkc5376ot"><b>Fast Company</b> (@fastcompany.com)</a> |
 | ✅ <a href="https://bsky.app/profile/did:plc:5u54z2qgkq43dh2nzwzdbbhb"><b>Financial Times</b> (@financialtimes.com)</a> |
 | ✅ <a href="https://bsky.app/profile/did:plc:6q2thhy2ohzog26mmqm4pffk"><b>Flipboard</b> (@flipboard.com)</a> |
 | ✅ <a href="https://bsky.app/profile/did:plc:2w45zyhuklwihpdc7oj3mi63"><b>Forbes</b> (@forbes.com)</a> |
