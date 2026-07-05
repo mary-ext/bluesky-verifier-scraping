@@ -1,0 +1,11 @@
+{
+	"profile": {
+		"handle": "wmo-global.bsky.social",
+		"name": "World Meteorological Organization"
+	},
+	"verifiedBy": {
+		"did:plc:hd564mpf6bekrwzyhvujs54b": {
+			"at": 1783186683760
+		}
+	}
+}
