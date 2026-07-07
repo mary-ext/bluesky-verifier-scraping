@@ -1,11 +1,11 @@
 {
 	"profile": {
-		"handle": "noaa.gov",
-		"name": "NOAA"
+		"handle": "stateofdecay.com",
+		"name": "State of Decay"
 	},
 	"verifiedBy": {
 		"did:plc:z72i7hdynmk6r22z27h6tvur": {
-			"at": 1753072400622
+			"at": 1783390891298
 		}
 	}
 }
