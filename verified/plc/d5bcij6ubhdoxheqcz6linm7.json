@@ -1,11 +1,11 @@
 {
 	"profile": {
-		"handle": "cy2026eu.bsky.social",
-		"name": "Cyprus Presidency of the Council of the EU 2026"
+		"handle": "cyprusineu.bsky.social",
+		"name": "Permanent Representation of Cyprus to the EU"
 	},
 	"verifiedBy": {
 		"did:plc:z72i7hdynmk6r22z27h6tvur": {
-			"at": 1766311305666
+			"at": 1783627639133
 		}
 	}
 }
