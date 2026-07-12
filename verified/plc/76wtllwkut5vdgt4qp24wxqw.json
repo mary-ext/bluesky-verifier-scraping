@@ -1,0 +1,11 @@
+{
+	"profile": {
+		"handle": "thejidjournal.bsky.social",
+		"name": "the JID Journal"
+	},
+	"verifiedBy": {
+		"did:plc:hd564mpf6bekrwzyhvujs54b": {
+			"at": 1783790651535
+		}
+	}
+}

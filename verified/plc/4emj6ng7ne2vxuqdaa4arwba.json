@@ -1,11 +1,11 @@
 {
 	"profile": {
-		"handle": "handle.invalid",
-		"name": "TjekDet"
+		"handle": "njpbs.org",
+		"name": "NJ PBS"
 	},
 	"verifiedBy": {
 		"did:plc:z72i7hdynmk6r22z27h6tvur": {
-			"at": 1755028452001
+			"at": 1783771671682
 		}
 	}
 }
