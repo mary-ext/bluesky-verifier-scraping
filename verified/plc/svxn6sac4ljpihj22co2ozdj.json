@@ -1,11 +1,11 @@
 {
 	"profile": {
-		"handle": "handle.invalid",
-		"name": "RSF"
+		"handle": "nilswilcke.bsky.social",
+		"name": "Nils Wilcke"
 	},
 	"verifiedBy": {
 		"did:plc:z72i7hdynmk6r22z27h6tvur": {
-			"at": 1769739739754
+			"at": 1784046102180
 		}
 	}
 }
