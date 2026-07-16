@@ -1,11 +1,11 @@
 {
 	"profile": {
-		"handle": "seattledot.bsky.social",
+		"handle": "transportation.seattle.gov",
 		"name": "Seattle Department of Transportation"
 	},
 	"verifiedBy": {
 		"did:plc:z72i7hdynmk6r22z27h6tvur": {
-			"at": 1781707351138
+			"at": 1784157883944
 		}
 	}
 }
