@@ -1,11 +1,14 @@
 {
 	"profile": {
 		"handle": "camfinalmix.bsky.social",
-		"name": "Cam Hawkins✌🏽👑 🏴󠁧󠁢󠁥󠁮󠁧󠁿"
+		"name": "Cam Hawkins✌🏽👑"
 	},
 	"verifiedBy": {
 		"did:plc:xwqgusybtrpm67tcwqdfmzvy": {
 			"at": 1780111546147
+		},
+		"did:plc:z72i7hdynmk6r22z27h6tvur": {
+			"at": 1784221828133
 		}
 	}
 }
