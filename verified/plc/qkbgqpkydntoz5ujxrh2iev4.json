@@ -1,11 +1,11 @@
 {
 	"profile": {
-		"handle": "rsf.org",
-		"name": "RSF"
+		"handle": "arbeiterkammer.at",
+		"name": "@Arbeiterkammer"
 	},
 	"verifiedBy": {
 		"did:plc:z72i7hdynmk6r22z27h6tvur": {
-			"at": 1769739739754
+			"at": 1784291533403
 		}
 	}
 }
