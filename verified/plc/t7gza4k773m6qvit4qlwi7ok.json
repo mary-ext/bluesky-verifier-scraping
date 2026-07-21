@@ -1,11 +1,11 @@
 {
 	"profile": {
-		"handle": "nicolashenin.net",
-		"name": "Nicolas Hénin"
+		"handle": "npmjs.com",
+		"name": "npm"
 	},
 	"verifiedBy": {
 		"did:plc:z72i7hdynmk6r22z27h6tvur": {
-			"at": 1784550912957
+			"at": 1784554993886
 		}
 	}
 }
