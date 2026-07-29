@@ -1,11 +1,11 @@
 {
 	"profile": {
-		"handle": "handle.invalid",
-		"name": "Stanford University"
+		"handle": "kianamai.bsky.social",
+		"name": "Kiana Mai"
 	},
 	"verifiedBy": {
 		"did:plc:z72i7hdynmk6r22z27h6tvur": {
-			"at": 1765668346395
+			"at": 1785272871429
 		}
 	}
 }
