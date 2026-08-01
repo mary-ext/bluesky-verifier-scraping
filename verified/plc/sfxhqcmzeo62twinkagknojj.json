@@ -1,11 +1,11 @@
 {
 	"profile": {
-		"handle": "noaa.gov",
-		"name": "NOAA"
+		"handle": "thecut.com",
+		"name": "The Cut"
 	},
 	"verifiedBy": {
 		"did:plc:z72i7hdynmk6r22z27h6tvur": {
-			"at": 1753072400622
+			"at": 1785520619881
 		}
 	}
 }
