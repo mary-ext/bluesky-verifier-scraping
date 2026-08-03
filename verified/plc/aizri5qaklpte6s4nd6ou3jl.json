@@ -1,11 +1,14 @@
 {
 	"profile": {
 		"handle": "rondakaysen.bsky.social",
-		"name": "Ronda Kaysen "
+		"name": "Ronda Kaysen"
 	},
 	"verifiedBy": {
 		"did:plc:eclio37ymobqex2ncko63h4r": {
 			"at": 1745333830704
+		},
+		"did:plc:z72i7hdynmk6r22z27h6tvur": {
+			"at": 1785723444340
 		}
 	}
 }
