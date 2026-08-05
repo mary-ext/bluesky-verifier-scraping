@@ -1,11 +1,11 @@
 {
 	"profile": {
-		"handle": "handle.invalid",
-		"name": "Dana Spinant"
+		"handle": "seattletimes.com",
+		"name": "The Seattle Times"
 	},
 	"verifiedBy": {
 		"did:plc:z72i7hdynmk6r22z27h6tvur": {
-			"at": 1781727791015
+			"at": 1785874038113
 		}
 	}
 }
