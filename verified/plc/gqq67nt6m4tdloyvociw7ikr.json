@@ -1,0 +1,11 @@
+{
+	"profile": {
+		"handle": "moderation.latinsky.app",
+		"name": "Latinsky Moderation"
+	},
+	"verifiedBy": {
+		"did:plc:kta7dqcqoamo5ixlajxbtjps": {
+			"at": 1786131785000
+		}
+	}
+}
