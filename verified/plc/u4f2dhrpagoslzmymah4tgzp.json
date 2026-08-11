@@ -1,11 +1,11 @@
 {
 	"profile": {
-		"handle": "handle.invalid",
+		"handle": "elsaltodiario.bsky.social",
 		"name": "El Salto"
 	},
 	"verifiedBy": {
 		"did:plc:z72i7hdynmk6r22z27h6tvur": {
-			"at": 1769735798781
+			"at": 1786359340923
 		}
 	}
 }
