@@ -1,0 +1,11 @@
+{
+	"profile": {
+		"handle": "ap-hm.fr",
+		"name": "AP-HM Hôpitaux Universitaires de Marseille"
+	},
+	"verifiedBy": {
+		"did:plc:z72i7hdynmk6r22z27h6tvur": {
+			"at": 1786726709676
+		}
+	}
+}

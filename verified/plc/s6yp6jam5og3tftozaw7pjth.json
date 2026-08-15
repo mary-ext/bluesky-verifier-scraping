@@ -1,11 +1,11 @@
 {
 	"profile": {
-		"handle": "handle.invalid",
-		"name": "Ward Wijndelts"
+		"handle": "johnrogers.bsky.social",
+		"name": "John Rogers"
 	},
 	"verifiedBy": {
 		"did:plc:z72i7hdynmk6r22z27h6tvur": {
-			"at": 1775301759071
+			"at": 1786693425812
 		}
 	}
 }

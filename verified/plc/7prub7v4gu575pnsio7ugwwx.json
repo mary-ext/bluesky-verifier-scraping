@@ -1,0 +1,11 @@
+{
+	"profile": {
+		"handle": "seattlechannel.seattle.gov",
+		"name": "Seattle Channel"
+	},
+	"verifiedBy": {
+		"did:plc:z72i7hdynmk6r22z27h6tvur": {
+			"at": 1786744073717
+		}
+	}
+}
