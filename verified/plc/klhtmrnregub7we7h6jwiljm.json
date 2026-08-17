@@ -1,11 +1,11 @@
 {
 	"profile": {
-		"handle": "handle.invalid",
-		"name": "Michael Kruse"
+		"handle": "ed3d.net",
+		"name": "Ed"
 	},
 	"verifiedBy": {
 		"did:plc:z72i7hdynmk6r22z27h6tvur": {
-			"at": 1785875216746
+			"at": 1786851406393
 		}
 	}
 }

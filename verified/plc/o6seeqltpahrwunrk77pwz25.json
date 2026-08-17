@@ -1,11 +1,11 @@
 {
 	"profile": {
-		"handle": "handle.invalid",
-		"name": "Michael Kruse"
+		"handle": "textfiles.com",
+		"name": "Jason Scott"
 	},
 	"verifiedBy": {
 		"did:plc:z72i7hdynmk6r22z27h6tvur": {
-			"at": 1785875216746
+			"at": 1786919869598
 		}
 	}
 }
