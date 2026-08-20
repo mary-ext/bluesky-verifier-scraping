@@ -1,11 +1,11 @@
 {
 	"profile": {
-		"handle": "ecfriedman.com",
-		"name": "Dr. Emily Friedman"
+		"handle": "slateauto.bsky.social",
+		"name": "Slate Auto"
 	},
 	"verifiedBy": {
 		"did:plc:z72i7hdynmk6r22z27h6tvur": {
-			"at": 1787154948029
+			"at": 1787183550729
 		}
 	}
 }
