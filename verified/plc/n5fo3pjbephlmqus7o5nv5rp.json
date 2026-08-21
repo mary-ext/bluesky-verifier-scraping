@@ -1,11 +1,11 @@
 {
 	"profile": {
-		"handle": "handle.invalid",
-		"name": "McGill University"
+		"handle": "zackmeisel.bsky.social",
+		"name": "Zack Meisel"
 	},
 	"verifiedBy": {
 		"did:plc:z72i7hdynmk6r22z27h6tvur": {
-			"at": 1765668314492
+			"at": 1787268417845
 		}
 	}
 }
