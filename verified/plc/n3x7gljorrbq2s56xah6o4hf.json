@@ -1,11 +1,11 @@
 {
 	"profile": {
-		"handle": "handle.invalid",
-		"name": "RSF"
+		"handle": "geogantart.com",
+		"name": "George Gant"
 	},
 	"verifiedBy": {
 		"did:plc:z72i7hdynmk6r22z27h6tvur": {
-			"at": 1769739739754
+			"at": 1787316667403
 		}
 	}
 }

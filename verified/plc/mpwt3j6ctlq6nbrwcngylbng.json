@@ -1,11 +1,11 @@
 {
 	"profile": {
-		"handle": "handle.invalid",
-		"name": "RSF"
+		"handle": "extrafabulous.bsky.social",
+		"name": "zach"
 	},
 	"verifiedBy": {
 		"did:plc:z72i7hdynmk6r22z27h6tvur": {
-			"at": 1769739739754
+			"at": 1787333148254
 		}
 	}
 }
