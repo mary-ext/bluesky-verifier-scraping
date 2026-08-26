@@ -4,6 +4,9 @@
 		"name": "Megan Brand"
 	},
 	"verifiedBy": {
+		"did:plc:wmho6q2uiyktkam3jsvrms3s": {
+			"at": 1747935945763
+		},
 		"did:plc:z72i7hdynmk6r22z27h6tvur": {
 			"at": 1785705193800
 		}

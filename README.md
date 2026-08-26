@@ -1,6 +1,6 @@
 # Bluesky verified accounts
 
-Last updated: 2026-08-25T01:10:01.983Z[^1]
+Last updated: 2026-08-26T01:10:02.396Z[^1]
 
 ## Bluesky
 
@@ -21,6 +21,7 @@ Last updated: 2026-08-25T01:10:01.983Z[^1]
 | ✅ <a href="https://bsky.app/profile/did:plc:d2jith367s6ybc3ldsusgdae"><b>Los Angeles Times</b> (@latimes.com)</a> |
 | ✅ <a href="https://bsky.app/profile/did:plc:fivojrvylkim4nuo3pfqcf3k"><b>Microsoft</b> (@microsoft.com)</a> |
 | ✅ <a href="https://bsky.app/profile/did:plc:ofbkqcjzvm6gtwuufsubnkaf"><b>MS NOW</b> (@ms.now)</a> |
+| ✅ <a href="https://bsky.app/profile/did:plc:wmho6q2uiyktkam3jsvrms3s"><b>NBC News</b> (@nbcnews.com)</a> |
 | ✅ <a href="https://bsky.app/profile/did:plc:hbdc3q6k5lforao5vyuarvsp"><b>Rest of World</b> (@restofworld.org)</a> |
 | ✅ <a href="https://bsky.app/profile/did:plc:5h5jdov3ptqbfx2gu2ikheog"><b>Test Verifier</b> (@vert-verifier.bsky.social)</a> |
 | ✅ <a href="https://bsky.app/profile/did:plc:b2kutgxqlltwc6lhs724cfwr"><b>The Athletic</b> (@theathletic.com)</a> |

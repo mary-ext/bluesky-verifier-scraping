@@ -230,6 +230,16 @@
 				"bluesky": "valid"
 			}
 		},
+		"did:plc:wmho6q2uiyktkam3jsvrms3s": {
+			"at": 1787706454637,
+			"profile": {
+				"handle": "nbcnews.com",
+				"name": "NBC News"
+			},
+			"sources": {
+				"bluesky": "valid"
+			}
+		},
 		"did:plc:xwqgusybtrpm67tcwqdfmzvy": {
 			"at": 1749582606032,
 			"profile": {
