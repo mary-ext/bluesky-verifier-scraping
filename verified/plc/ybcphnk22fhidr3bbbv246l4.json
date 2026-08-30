@@ -4,6 +4,9 @@
 		"name": "Boston Public Health Commission"
 	},
 	"verifiedBy": {
+		"did:plc:hd564mpf6bekrwzyhvujs54b": {
+			"at": 1788024359362
+		},
 		"did:plc:z72i7hdynmk6r22z27h6tvur": {
 			"at": 1751770106354
 		}

@@ -1,0 +1,11 @@
+{
+	"profile": {
+		"handle": "cellpress.bsky.social",
+		"name": "Cell Press"
+	},
+	"verifiedBy": {
+		"did:plc:hd564mpf6bekrwzyhvujs54b": {
+			"at": 1788024254066
+		}
+	}
+}

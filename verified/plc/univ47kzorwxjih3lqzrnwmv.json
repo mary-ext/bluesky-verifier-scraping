@@ -4,6 +4,9 @@
 		"name": "WHO"
 	},
 	"verifiedBy": {
+		"did:plc:hd564mpf6bekrwzyhvujs54b": {
+			"at": 1788024226723
+		},
 		"did:plc:z72i7hdynmk6r22z27h6tvur": {
 			"at": 1752873655233
 		}
