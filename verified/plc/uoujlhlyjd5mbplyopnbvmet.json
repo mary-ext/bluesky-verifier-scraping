@@ -1,11 +1,11 @@
 {
 	"profile": {
-		"handle": "notusperspectives.bsky.social",
-		"name": "NOTUS Perspectives"
+		"handle": "washsunperspect.bsky.social",
+		"name": "The Washington Sun Perspectives"
 	},
 	"verifiedBy": {
 		"did:plc:z72i7hdynmk6r22z27h6tvur": {
-			"at": 1784133573981
+			"at": 1788959188457
 		}
 	}
 }

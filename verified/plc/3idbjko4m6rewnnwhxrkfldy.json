@@ -1,11 +1,11 @@
 {
 	"profile": {
-		"handle": "notusmetro.bsky.social",
-		"name": "NOTUS Metro"
+		"handle": "washsunmetro.bsky.social",
+		"name": "The Washington Sun Metro"
 	},
 	"verifiedBy": {
 		"did:plc:z72i7hdynmk6r22z27h6tvur": {
-			"at": 1784071953397
+			"at": 1788959234263
 		}
 	}
 }
