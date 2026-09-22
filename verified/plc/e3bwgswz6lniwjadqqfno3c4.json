@@ -1,11 +1,11 @@
 {
 	"profile": {
-		"handle": "greenpeace.nl",
-		"name": "Greenpeace Nederland"
+		"handle": "wsocial.eu",
+		"name": "W Social"
 	},
 	"verifiedBy": {
 		"did:plc:z72i7hdynmk6r22z27h6tvur": {
-			"at": 1755324354357
+			"at": 1790025105173
 		}
 	}
 }
