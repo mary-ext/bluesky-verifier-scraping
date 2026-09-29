@@ -1,11 +1,11 @@
 {
 	"profile": {
-		"handle": "handle.invalid",
-		"name": "FAMM Foundation"
+		"handle": "insiderwire.com",
+		"name": "Insider Wire"
 	},
 	"verifiedBy": {
 		"did:plc:z72i7hdynmk6r22z27h6tvur": {
-			"at": 1751056410222
+			"at": 1790640324627
 		}
 	}
 }
