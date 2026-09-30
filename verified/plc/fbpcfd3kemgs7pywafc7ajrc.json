@@ -1,11 +1,11 @@
 {
 	"profile": {
-		"handle": "mattpope.bsky.social",
-		"name": "Dr Matt Pope"
+		"handle": "el-p.bsky.social",
+		"name": "EL-P"
 	},
 	"verifiedBy": {
 		"did:plc:z72i7hdynmk6r22z27h6tvur": {
-			"at": 1754204848436
+			"at": 1790699819890
 		}
 	}
 }
