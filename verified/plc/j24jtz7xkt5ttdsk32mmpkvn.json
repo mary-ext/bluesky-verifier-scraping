@@ -1,0 +1,11 @@
+{
+	"profile": {
+		"handle": "johnhollinger.bsky.social",
+		"name": "John Hollinger"
+	},
+	"verifiedBy": {
+		"did:plc:b2kutgxqlltwc6lhs724cfwr": {
+			"at": 1791304766592
+		}
+	}
+}
