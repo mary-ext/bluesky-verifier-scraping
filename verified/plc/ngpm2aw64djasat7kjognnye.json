@@ -1,11 +1,11 @@
 {
 	"profile": {
-		"handle": "handle.invalid",
-		"name": "Terzake"
+		"handle": "pdx.atproto.camp",
+		"name": "ATProto PDX"
 	},
 	"verifiedBy": {
 		"did:plc:z72i7hdynmk6r22z27h6tvur": {
-			"at": 1764175588940
+			"at": 1791389504477
 		}
 	}
 }
