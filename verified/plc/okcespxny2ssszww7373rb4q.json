@@ -1,11 +1,11 @@
 {
 	"profile": {
-		"handle": "handle.invalid",
-		"name": "EU in the U.S."
+		"handle": "jswatz.bsky.social",
+		"name": "John Schwartz"
 	},
 	"verifiedBy": {
 		"did:plc:z72i7hdynmk6r22z27h6tvur": {
-			"at": 1751575157706
+			"at": 1791597715482
 		}
 	}
 }
