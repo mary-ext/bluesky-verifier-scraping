@@ -1,0 +1,11 @@
+{
+	"profile": {
+		"handle": "libdempeers.bsky.social",
+		"name": "Lib Dem Peers"
+	},
+	"verifiedBy": {
+		"did:plc:z72i7hdynmk6r22z27h6tvur": {
+			"at": 1791902930007
+		}
+	}
+}
