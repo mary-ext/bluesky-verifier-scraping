@@ -1,11 +1,11 @@
 {
 	"profile": {
-		"handle": "nikkei-science.com",
+		"handle": "nk-science.nikkei.com",
 		"name": "日経サイエンス"
 	},
 	"verifiedBy": {
 		"did:plc:z72i7hdynmk6r22z27h6tvur": {
-			"at": 1768290967728
+			"at": 1792094562776
 		}
 	}
 }
