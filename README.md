@@ -1,6 +1,6 @@
 # Bluesky verified accounts
 
-Last updated: 2026-08-26T01:10:02.396Z[^1]
+Last updated: 2026-10-27T03:40:30.136Z[^1]
 
 ## Bluesky
 
@@ -16,6 +16,7 @@ Last updated: 2026-08-26T01:10:02.396Z[^1]
 | ✅ <a href="https://bsky.app/profile/did:plc:5u54z2qgkq43dh2nzwzdbbhb"><b>Financial Times</b> (@financialtimes.com)</a> |
 | ✅ <a href="https://bsky.app/profile/did:plc:6q2thhy2ohzog26mmqm4pffk"><b>Flipboard</b> (@flipboard.com)</a> |
 | ✅ <a href="https://bsky.app/profile/did:plc:2w45zyhuklwihpdc7oj3mi63"><b>Forbes</b> (@forbes.com)</a> |
+| ✅ <a href="https://bsky.app/profile/did:plc:nl32untxngcg74dl3w7scd74"><b>Guardian US</b> (@us.theguardian.com)</a> |
 | ✅ <a href="https://bsky.app/profile/did:plc:j4eroku3volozvv6ljsnnfec"><b>HuffPost</b> (@huffpost.com)</a> |
 | ✅ <a href="https://bsky.app/profile/did:plc:xwqgusybtrpm67tcwqdfmzvy"><b>IGN</b> (@ign.com)</a> |
 | ✅ <a href="https://bsky.app/profile/did:plc:d2jith367s6ybc3ldsusgdae"><b>Los Angeles Times</b> (@latimes.com)</a> |

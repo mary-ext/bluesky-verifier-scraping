@@ -170,6 +170,16 @@
 				"bluesky": "valid"
 			}
 		},
+		"did:plc:nl32untxngcg74dl3w7scd74": {
+			"at": 1793072396129,
+			"profile": {
+				"handle": "us.theguardian.com",
+				"name": "Guardian US"
+			},
+			"sources": {
+				"bluesky": "valid"
+			}
+		},
 		"did:plc:ofbkqcjzvm6gtwuufsubnkaf": {
 			"at": 1753202006385,
 			"profile": {
