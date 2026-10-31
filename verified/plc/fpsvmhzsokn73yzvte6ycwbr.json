@@ -1,11 +1,11 @@
 {
 	"profile": {
-		"handle": "handle.invalid",
+		"handle": "allrecipes.bsky.social",
 		"name": "Allrecipes"
 	},
 	"verifiedBy": {
 		"did:plc:z72i7hdynmk6r22z27h6tvur": {
-			"at": 1747930563455
+			"at": 1793390592285
 		}
 	}
 }
