@@ -1,11 +1,14 @@
 {
 	"profile": {
 		"handle": "pillowfort.bsky.social",
-		"name": "matte jones"
+		"name": "\nAAA Navarrette"
 	},
 	"verifiedBy": {
 		"did:plc:xwqgusybtrpm67tcwqdfmzvy": {
 			"at": 1749587253172
+		},
+		"did:plc:z72i7hdynmk6r22z27h6tvur": {
+			"at": 1793909174160
 		}
 	}
 }
