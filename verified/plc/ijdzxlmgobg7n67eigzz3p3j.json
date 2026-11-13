@@ -1,0 +1,11 @@
+{
+	"profile": {
+		"handle": "newsproduct.org",
+		"name": "News Product Alliance"
+	},
+	"verifiedBy": {
+		"did:plc:hbdc3q6k5lforao5vyuarvsp": {
+			"at": 1794503617241
+		}
+	}
+}
