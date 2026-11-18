@@ -1,0 +1,11 @@
+{
+	"profile": {
+		"handle": "mjerkins.bsky.social",
+		"name": "Morgan Jerkins"
+	},
+	"verifiedBy": {
+		"did:plc:nl32untxngcg74dl3w7scd74": {
+			"at": 1794952552162
+		}
+	}
+}
