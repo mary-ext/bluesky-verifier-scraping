@@ -1,11 +1,11 @@
 {
 	"profile": {
 		"handle": "doit.boston.gov",
-		"name": "Boston Innovation and Technology Cabinet"
+		"name": "Boston Department of Innovation and Technology"
 	},
 	"verifiedBy": {
 		"did:plc:z72i7hdynmk6r22z27h6tvur": {
-			"at": 1755409900673
+			"at": 1795120565012
 		}
 	}
 }
