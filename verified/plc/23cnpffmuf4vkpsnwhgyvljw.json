@@ -1,11 +1,11 @@
 {
 	"profile": {
 		"handle": "transrights.northsky.social",
-		"name": "Northsky Social Cooperative"
+		"name": "Northsky Social"
 	},
 	"verifiedBy": {
 		"did:plc:z72i7hdynmk6r22z27h6tvur": {
-			"at": 1773245003729
+			"at": 1795377807733
 		}
 	}
 }
