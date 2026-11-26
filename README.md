@@ -1,6 +1,6 @@
 # Bluesky verified accounts
 
-Last updated: 2026-10-27T03:40:30.136Z[^1]
+Last updated: 2026-11-26T06:48:52.059Z[^1]
 
 ## Bluesky
 
@@ -37,7 +37,5 @@ Last updated: 2026-10-27T03:40:30.136Z[^1]
 
 | Account |
 | ------- |
-| ✅ <a href="https://bsky.app/profile/did:plc:kta7dqcqoamo5ixlajxbtjps"><b>Blacksky Algorithms</b> (@blackskyweb.xyz)</a> |
-| ✅ <a href="https://bsky.app/profile/did:plc:hd564mpf6bekrwzyhvujs54b"><b>Medsky Network</b> (@medsky.network)</a> |
 
 [^1]: Reflecting actual changes, not when the scraper was last run
