@@ -1,0 +1,11 @@
+{
+	"profile": {
+		"handle": "move.blacksky.community",
+		"name": "PDS Migration Service by Blacksky"
+	},
+	"verifiedBy": {
+		"did:plc:kta7dqcqoamo5ixlajxbtjps": {
+			"at": 1773255069964
+		}
+	}
+}

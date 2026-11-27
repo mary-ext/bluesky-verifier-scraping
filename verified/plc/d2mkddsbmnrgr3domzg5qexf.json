@@ -1,0 +1,11 @@
+{
+	"profile": {
+		"handle": "moderation.blacksky.app",
+		"name": "Blacksky Moderation"
+	},
+	"verifiedBy": {
+		"did:plc:kta7dqcqoamo5ixlajxbtjps": {
+			"at": 1773254950116
+		}
+	}
+}

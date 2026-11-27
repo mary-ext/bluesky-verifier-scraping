@@ -4,6 +4,9 @@
 		"name": "Dr. Jonathan N. Stea"
 	},
 	"verifiedBy": {
+		"did:plc:hd564mpf6bekrwzyhvujs54b": {
+			"at": 1788022408589
+		},
 		"did:plc:z72i7hdynmk6r22z27h6tvur": {
 			"at": 1750962106281
 		}

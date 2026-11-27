@@ -1,0 +1,11 @@
+{
+	"profile": {
+		"handle": "accreditedcme.bsky.social",
+		"name": "Accreditation Council for Continuing Medical Education"
+	},
+	"verifiedBy": {
+		"did:plc:hd564mpf6bekrwzyhvujs54b": {
+			"at": 1781217425297
+		}
+	}
+}

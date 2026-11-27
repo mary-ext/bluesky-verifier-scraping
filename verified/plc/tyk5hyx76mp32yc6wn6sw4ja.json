@@ -4,6 +4,9 @@
 		"name": "Thomas R. Cox"
 	},
 	"verifiedBy": {
+		"did:plc:hd564mpf6bekrwzyhvujs54b": {
+			"at": 1788022444268
+		},
 		"did:plc:z72i7hdynmk6r22z27h6tvur": {
 			"at": 1751058532613
 		}

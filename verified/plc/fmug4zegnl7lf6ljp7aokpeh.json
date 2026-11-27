@@ -1,0 +1,11 @@
+{
+	"profile": {
+		"handle": "moderation.medsky.network",
+		"name": "Medsky Moderation"
+	},
+	"verifiedBy": {
+		"did:plc:hd564mpf6bekrwzyhvujs54b": {
+			"at": 1781114617094
+		}
+	}
+}

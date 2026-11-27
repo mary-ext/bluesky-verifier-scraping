@@ -4,6 +4,9 @@
 		"name": "UNAIDS Global"
 	},
 	"verifiedBy": {
+		"did:plc:hd564mpf6bekrwzyhvujs54b": {
+			"at": 1788022582633
+		},
 		"did:plc:z72i7hdynmk6r22z27h6tvur": {
 			"at": 1751199563594
 		}

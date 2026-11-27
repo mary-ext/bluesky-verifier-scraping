@@ -1,0 +1,11 @@
+{
+	"profile": {
+		"handle": "eular.org",
+		"name": "The European Alliance of Associations for Rheumatology"
+	},
+	"verifiedBy": {
+		"did:plc:hd564mpf6bekrwzyhvujs54b": {
+			"at": 1780756155540
+		}
+	}
+}

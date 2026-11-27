@@ -1,0 +1,11 @@
+{
+	"profile": {
+		"handle": "cidrap.bsky.social",
+		"name": "CIDRAP"
+	},
+	"verifiedBy": {
+		"did:plc:hd564mpf6bekrwzyhvujs54b": {
+			"at": 1783374073415
+		}
+	}
+}

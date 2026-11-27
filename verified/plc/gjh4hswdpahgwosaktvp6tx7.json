@@ -1,0 +1,11 @@
+{
+	"profile": {
+		"handle": "bmc.springernature.com",
+		"name": "BMC"
+	},
+	"verifiedBy": {
+		"did:plc:hd564mpf6bekrwzyhvujs54b": {
+			"at": 1781116562681
+		}
+	}
+}

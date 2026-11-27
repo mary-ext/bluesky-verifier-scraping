@@ -1,0 +1,11 @@
+{
+	"profile": {
+		"handle": "focisimmunology.bsky.social",
+		"name": "FOCIS - Federation of Clinical Immunology Societies"
+	},
+	"verifiedBy": {
+		"did:plc:hd564mpf6bekrwzyhvujs54b": {
+			"at": 1783184706678
+		}
+	}
+}

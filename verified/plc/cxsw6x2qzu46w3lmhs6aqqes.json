@@ -4,6 +4,9 @@
 		"name": "Alan Drummond MD"
 	},
 	"verifiedBy": {
+		"did:plc:hd564mpf6bekrwzyhvujs54b": {
+			"at": 1788022619107
+		},
 		"did:plc:z72i7hdynmk6r22z27h6tvur": {
 			"at": 1751402045235
 		}

@@ -1,0 +1,11 @@
+{
+	"profile": {
+		"handle": "thepcc.org",
+		"name": "Primary Care Collaborative"
+	},
+	"verifiedBy": {
+		"did:plc:hd564mpf6bekrwzyhvujs54b": {
+			"at": 1783374104578
+		}
+	}
+}

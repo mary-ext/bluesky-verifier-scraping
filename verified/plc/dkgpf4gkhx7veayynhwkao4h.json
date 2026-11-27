@@ -1,0 +1,11 @@
+{
+	"profile": {
+		"handle": "elsfoundation.bsky.social",
+		"name": "The Elsevier Foundation"
+	},
+	"verifiedBy": {
+		"did:plc:hd564mpf6bekrwzyhvujs54b": {
+			"at": 1788024200761
+		}
+	}
+}

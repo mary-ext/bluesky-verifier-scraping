@@ -4,6 +4,9 @@
 		"name": "Jorge A. Caballero, MD"
 	},
 	"verifiedBy": {
+		"did:plc:hd564mpf6bekrwzyhvujs54b": {
+			"at": 1781116765380
+		},
 		"did:plc:z72i7hdynmk6r22z27h6tvur": {
 			"at": 1786845961016
 		}

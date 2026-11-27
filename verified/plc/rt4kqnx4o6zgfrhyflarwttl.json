@@ -1,0 +1,11 @@
+{
+	"profile": {
+		"handle": "eortc.org",
+		"name": "European Organisation for Research and Treatment of Cancer "
+	},
+	"verifiedBy": {
+		"did:plc:hd564mpf6bekrwzyhvujs54b": {
+			"at": 1781104907168
+		}
+	}
+}
